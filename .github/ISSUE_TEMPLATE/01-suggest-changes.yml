@@ -7,14 +7,17 @@ body:
     attributes:
       value: |
         Thanks for taking the time to help us improve the roadmaps with your suggestions.
-  - type: input
-    id: url
+  - type: dropdown
+    id: roadmap
     attributes:
-      label: Roadmap URL
-      description: Please provide the URL of the roadmap you are suggesting changes to.
-      placeholder: https://roadmap.sh
-    validations:
-      required: true
+      label: Roadmap
+      description: What roadmap are you referring to?
+      options:
+        - ABAP Developer
+        - SAP Cloud Developer
+        - SAP Integration Developer
+        - SAP UX Developer
+        - SAP HANA Developer
   - type: textarea
     id: roadmap-suggestions
     attributes:

@@ -18,6 +18,8 @@ body:
         - SAP Integration Developer
         - SAP UX Developer
         - SAP HANA Developer
+      validations:
+        required: true
   - type: textarea
     id: roadmap-suggestions
     attributes:

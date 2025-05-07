@@ -25,7 +25,7 @@
 
 <p>
   <h4>Meet the team:</h4>
-    Hendrik Behrens, Edna Behrmann, Volker Bendfeldt, Nico Gnauck, Tilmann Gutschmidt, Arjo Hinrichs, Stefan Keuker, Thorben Klein, Wendy Morales,   Jörn König, Steffen Römer, Lasse Schorn, <a href="https://github.com/seilerse">Sebastian Seiler</a>, Jaheda Zargarpur
+    Hendrik Behrens, Edna Behrmann, Volker Bendfeldt, Nico Gnauck, Tilmann Gutschmidt, Arjo Hinrichs, Stefan Keuker, <a href="https://github.com/tklein1801">Thorben Klein</a>, Wendy Morales, Jörn König, Steffen Römer, Lasse Schorn, <a href="https://github.com/seilerse">Sebastian Seiler</a>, Jaheda Zargarpur
 </p>
 
 <br>

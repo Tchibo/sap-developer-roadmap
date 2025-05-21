@@ -24,8 +24,17 @@
 ![](https://i.imgur.com/waxVImv.png)
 
 <p>
+  <h4>Contact us:</h4>
+  <p>Feel free to get in touch with us and create an <a href="">issue</a> to develop our roadmaps further together. We welcome any ideas, comments and (positive and negative) criticism.</h4>
+</p>
+
+<br>
+
+![](https://i.imgur.com/waxVImv.png)
+
+<p>
   <h4>Meet the team:</h4>
-    Hendrik Behrens, Edna Behrmann, Volker Bendfeldt, Nico Gnauck, Tilmann Gutschmidt, Arjo Hinrichs, Stefan Keuker, <a href="https://github.com/tklein1801">Thorben Klein</a>, Wendy Morales, Jörn König, Steffen Römer, Lasse Schorn, <a href="https://github.com/seilerse">Sebastian Seiler</a>, Jaheda Zargarpur
+  <p>Hendrik Behrens, Edna Behrmann, Volker Bendfeldt, Nico Gnauck, Tilmann Gutschmidt, Arjo Hinrichs, Stefan Keuker, <a href="https://github.com/tklein1801">Thorben Klein</a>, Wendy Morales, Jörn König, Steffen Römer, Lasse Schorn, <a href="https://github.com/seilerse">Sebastian Seiler</a>, Jaheda Zargarpur</p>
 </p>
 
 <br>

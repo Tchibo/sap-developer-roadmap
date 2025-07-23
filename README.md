@@ -25,7 +25,7 @@
 
 <p>
   <h3>Contact us:</h3>
-  <p>Feel free to get in touch with us and create an <a href="">issue</a> to develop our roadmaps further together. We welcome any ideas, comments and feedback.</h4>
+  <p>Feel free to get in touch with us and create an <a href="https://github.com/tchibo/sap-developer-roadmap/issues/new/choose">issue</a> to develop our roadmaps further together. We welcome any ideas, comments and feedback.</h4>
 </p>
 
 <br>

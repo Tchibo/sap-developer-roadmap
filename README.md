@@ -34,7 +34,7 @@
 
 <p>
   <h3>Meet the team:</h3>
-  <p>Hendrik Behrens, <a href="https://github.com/EdnaBehrmann">Edna Behrmann</a>, Volker Bendfeldt, Nico Gnauck, Tilmann Gutschmidt, Arjo Hinrichs, <a href="https://github.com/skeuker">Stefan Keuker</a>, <a href="https://github.com/tklein1801">Thorben Klein</a>, Wendy Morales, Jörn König, Steffen Römer, Lasse Schorn, <a href="https://github.com/seilerse">Sebastian Seiler</a>, Jaheda Zargarpur</p>
+  <p>Hendrik Behrens, <a href="https://github.com/EdnaBehrmann">Edna Behrmann</a>, Nico Gnauck, Tilmann Gutschmidt, Arjo Hinrichs, <a href="https://github.com/skeuker">Stefan Keuker</a>, <a href="https://github.com/tklein1801">Thorben Klein</a>, Lasse Schorn, <a href="https://github.com/seilerse">Sebastian Seiler</a></p>
 </p>
 
 <br>

@@ -13,7 +13,7 @@ body:
       label: Roadmap
       description: What roadmap are you referring to?
       options:
-        - ABAP Developer
+        - SAP ABAP Developer
         - SAP Cloud Developer
         - SAP Integration Developer
         - SAP UX Developer

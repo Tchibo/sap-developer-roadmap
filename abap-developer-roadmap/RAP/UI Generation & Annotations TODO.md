@@ -1,27 +1,35 @@
 #Medium 
 - [ ] #todo #edna  rework, join parts
-In RAP, the UI is generated based on **CDS UI annotations** in the CDS entities. Annotations are either field-based - when they 
-- field-based or entity-based
-- add label, search, visibility
-
-> [!info] Eine Infobox
-
-
-``` cds
-@AccessControl.authorizationCheck: #CHECK
-define view entity I_Customer
-	as select from kna1
-{
-@EndUserText.label: 'Kundennummer'
-key CustomerId,
-```
-
-These are the basic functionalities that shape the UI of a RAP application:
+In RAP, the UI is generated based on **CDS UI annotations** in the CDS entities. Annotations can either target a single field (e.g. adding a label or adding a value help) or they can influence a whole entity (e.g. creating a UI field group called 'facet' or enabling free text search).
+##### RAP UI Elements
+These are the functionalities that shape the UI of a RAP application:
 - **Facets** are UI elements like lists or field groups that define the layout of a RAP application.
 - **Selection fields** are filters on a list view.
 - **Value helps** are a key factor to make applications resilient and user friendly. **Additional bindings** can be used to bind a value help to another field enabling auto-completion and filtering.
 
-Similar annotations are used in CAP and Fiori elements.
+``` cds
+@UI.headerInfo.title.value: 'CustomerName'
+@Search.searchable: true
+define view entity C_Customer
+	as select from kna1
+{
+@UI.facet: [ {
+		label: 'Customer Details',
+		type: #FIELDGROUP_REFERENCE,
+		targetQualifier: 'customer_details'
+} ]
+
+	@Search.defaultSearchElement: true
+key CustomerId,
+
+	@EndUserText.label: 'Customer Name'
+	@UI.fieldGroup: [ { qualifier: 'customer_details' }]
+	@Search.defaultSearchElement: true
+	CustomerName
+}
+```
+
+
 
 ## Resources
 - [SAP Help Portal | Develop UI-Specifics](https://help.sap.com/docs/ABAP_PLATFORM_NEW/fc4c71aa50014fd1b43721701471913d/024de050bbe544498d425d48106141e6.html?locale=en-US)

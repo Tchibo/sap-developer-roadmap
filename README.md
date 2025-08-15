@@ -12,7 +12,7 @@
   <h3>We are currently working on different SAP Roadmaps:</h3>
   <ul>
     <li><a href="https://roadmap.sh/r/sap-abap-developer">SAP ABAP Developer</a></li>
-    <li>SAP Cloud Developer</li>
+    <li><a href="https://roadmap.sh/r/sap-cloud-developer">SAP Cloud Developer</a></li>
     <li>SAP Integration Developer</li>
     <li>SAP UX Developer</li>
     <li>SAP HANA Developer</li>
@@ -38,6 +38,12 @@
 </p>
 
 <br>
+
+<p align="center">
+  <a href="https://github.com/tchibo/sap-developer-roadmap/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=tchibo/sap-developer-roadmap" />
+</a>
+</p>
 
 <p align="center">
   &copy; 2025 Tchibo GmbH. All rights reserved | SAP Developer Roadmap

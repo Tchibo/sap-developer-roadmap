@@ -1,15 +1,38 @@
-**OData** is an open standard from SAP for REST-based data access via HTTP.
+- [ ] #todo Advantages of OData in general
+- [ ] #todo Mention CDS & RAP?
+- [ ] #todo OData = standard way to go for custom developments
 
-The newer version v4 has some major advantages over the older version2, which is no longer developed further, for example:
-- Better metadata compression, thus saving 10% to 60% of the data volume.
-- More sophisticated queries, sorting and filter mechanisms, and multi-level expands are supported, thus reducing the number of calls and data volume being transferred.
-- Addition of advanced analytical capabilities to the set of possible queries.
-- Ability of the client to access multiple services at the same time.
-- Improved data types that suit the needs of business applications.
+**Open Data Protocol (OData)** is an open standard developed by Microsoft as  REST based data access via HTTP.  REST ensures resource-oriented URLs and the correct use of HTTP verbs (GET, POST, etc.) for each action. OData builds on this and standardizes the request pattern, adding uniform query options for paging (`$top`, `$skip`), filtering (`$filter`), and sorting (`$orderby`).
 
-=> Compress
+OData is provided in two versions: V2 was widely used in the past.
+=> Offen: hat V2 noch eine Daseinsberechtigung abseits das es nicht alle Standard APIs als V4 gibt? Check gen Arjo
+
+The new version V4 provides a bunch of advantages like better metadata compression, more sophisticated queries, sorting and filter mechanisms. 
+
+```
+    "results" : [  
+      {  
+        "__metadata" : {  
+          "id" : "http://xxx.xxx.xxx.net:xxx/sap/opu/odata/SAP/ZVBST_ART_SRV/ArticleSet('600')",  
+          "uri" : "http://xxx.xxx.xxx.net:xxx/sap/opu/odata/SAP/ZVBST_ART_SRV/ArticleSet('600')",  
+          "type" : "ZVBST_ART_SRV.Article"  
+        },  
+        "articleId" : "600",  
+        "name" : "RA PK Latin Grande 250gx2 xx",  
+        "sort" : "Tchibo Privatkaffee",  
+        "barcode" : "4006067006005",  
+        "startOfValidity" : "\/Date(1325376000000)\/",  
+        "endOfValidity" : "\/Date(253370678400000)\/",  
+        "creationDate" : "\/Date(1368662400000)\/"  
+      },
+...
+```
 ### Usage
-OData can and should be used in cases were a synchronous access on data in SAP  systems is needed. Newly developed oData's should always be set up in version 4.
+OData can and should be used in cases were a synchronous access on data in SAP systems is needed. Newly developed oData's should always be set up in version 4.
+
+=> Macht hier die Unterscheidung Inbound / Outbound wirklich Sinn?
+odata - way to go for inbound, outbound ggf. REST ? 
+Erläuterung Inbound & Outbound - von SAP zu SAP
 
 ### Links
 [ODATA V4 | SAP S/4HANA Cloud Private Edition | SAP Business Accelerator Hub](https://api.sap.com/products/SAPS4HANACloudPrivateEdition/apis/ODATAV4)

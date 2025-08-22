@@ -14,18 +14,11 @@ Annotations can either target a single field (e.g. adding a label or adding a va
 @Search.searchable: true
 define view entity C_Customer as select from kna1 {
 
-	@UI.facet: [ {
-		label: 'Customer Details',
-		type: #FIELDGROUP_REFERENCE,
-		targetQualifier: 'customer_details'
-	} ]
-	@UI.fieldGroup: [ { qualifier: 'customer_details', position: 10 }]
-key CustomerId,
-
 	@EndUserText.label: 'Customer Name'
 	@UI.fieldGroup: [ { qualifier: 'customer_details', position: 20 }]
 	@Search.defaultSearchElement: true
-	CustomerName
+key	CustomerId,
+	...
 }
 ```
 

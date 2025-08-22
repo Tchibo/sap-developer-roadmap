@@ -34,7 +34,7 @@
 
 <p>
   <h3>Meet the team:</h3>
-  <p><a href="https://github.com/hendrik-101">Hendrik Behrens</a>, <a href="https://github.com/EdnaBehrmann">Edna Behrmann</a>, <a href="https://github.com/ngn2577">Nico Gnauck</a>, <a href="https://github.com/TilmannG">Tilmann Gutschmidt</a>, <a href="https://github.com/arjodon">Arjo Hinrichs</a>, <a href="https://github.com/skeuker">Stefan Keuker</a>, <a href="https://github.com/tklein1801">Thorben Klein</a>, Lasse Schorn, <a href="https://github.com/seilerse">Sebastian Seiler</a></p>
+  <p><a href="https://github.com/hendrik-101">Hendrik Behrens</a>, <a href="https://github.com/EdnaBehrmann">Edna Behrmann</a>, <a href="https://github.com/ngn2577">Nico Gnauck</a>, <a href="https://github.com/TilmannG">Tilmann Gutschmidt</a>, <a href="https://github.com/arjodon">Arjo Hinrichs</a>, <a href="https://github.com/skeuker">Stefan Keuker</a>, <a href="https://github.com/tklein1801">Thorben Klein</a>, <a href="https://github.com/lasseschorn">Lasse Schorn</a>, <a href="https://github.com/seilerse">Sebastian Seiler</a></p>
 </p>
 
 <br>

@@ -1,0 +1,1 @@
+Mit welchen Frameworks lassen sich Daten innerhalb von SAP standardnah bereitstellen und verteilen?

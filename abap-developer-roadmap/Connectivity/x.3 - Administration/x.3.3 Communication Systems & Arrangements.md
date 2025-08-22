@@ -1,1 +1,0 @@
-unter Vorbehalt - reines BTP Thema, daher aus meiner Sicht falsch

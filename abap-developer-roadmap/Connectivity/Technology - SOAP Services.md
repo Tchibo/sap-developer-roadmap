@@ -5,7 +5,7 @@ The WSDL describes the used data types as well as the methods that can be used f
 
 SOAP web services should be used only asynchronous and when they are provided by SAP for the use case of asynchronous data provisioning either outbound or inbound to SAP.
 
-### Links
+### Ressources
 [SOAP | SAP S/4HANA Cloud Private Edition | SAP Business Accelerator Hub](https://api.sap.com/products/SAPS4HANACloudPrivateEdition/apis/SOAP)
 
 [Web Service Technologies in the Application Server | SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/753088fc00704d0a80e7fbd6803c8adb/488598c8210f0e27e10000000a421937.html?locale=en-US)

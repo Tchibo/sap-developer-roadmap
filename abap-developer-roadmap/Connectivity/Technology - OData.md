@@ -34,7 +34,7 @@ OData can and should be used in cases were a synchronous access on data in SAP s
 odata - way to go for inbound, outbound ggf. REST ? 
 Erläuterung Inbound & Outbound - von SAP zu SAP
 
-### Links
+### Ressources
 [ODATA V4 | SAP S/4HANA Cloud Private Edition | SAP Business Accelerator Hub](https://api.sap.com/products/SAPS4HANACloudPrivateEdition/apis/ODATAV4)
 [SAP Gateway Foundation Developer Guide (v2) | SAP Help Portal](https://help.sap.com/docs/ABAP_PLATFORM_NEW/68bf513362174d54b58cddec28794093/a6422751c639276ee10000000a445394.html?locale=en-US)
 [SAP Gateway Foundation for OData V4 Developer Guide | SAP Help Portal](https://help.sap.com/docs/ABAP_PLATFORM_NEW/68bf513362174d54b58cddec28794093/1bbc4ecf0da94f358b1355fcbffa3363.html?locale=en-US)

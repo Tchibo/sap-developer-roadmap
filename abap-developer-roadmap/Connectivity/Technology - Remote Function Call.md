@@ -15,5 +15,5 @@ There also existing some older variants like transactional RFC and queued RFC th
 SAP also offers BAPI RFCs that encapsulate complete business objects as APIs, whereby these are increasingly being replaced by Business Object Interfaces (see also [Business Object Interfaces | SAP S/4HANA Cloud Private Edition | SAP Business Accelerator Hub](https://api.sap.com/products/SAPS4HANACloudPrivateEdition/onstackextensibility/bointerface)). 
 
 
-### Links
+### Ressources
 RFC types and setup in SAP Help Portal [RFC | SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/753088fc00704d0a80e7fbd6803c8adb/4888068ad9134076e10000000a42189d.html?locale=en-US)

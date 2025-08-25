@@ -6,7 +6,7 @@ It consists of a control record and several data and status records. The control
 There are various ways of transmitting IDocs to a destination, such as tRFC, via XML file and sending XML via HTTP. In general only sending XML by HTTP should be used while creating and moving files should be avoided.
 
 IDocs provide the possibility to decouple the creation or consumption of  data within SAP from receiving / sending the data and should be used therefore used only in such use cases.
-### Links
+### Ressources
 
 Introduction, Administration & Development of IDocs [IDoc Interface/ALE | SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/8f3819b0c24149b5959ab31070b64058/4ab074b6aa3a1997e10000000a421937.html?locale=en-US)
 

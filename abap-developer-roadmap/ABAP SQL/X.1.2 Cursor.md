@@ -1,3 +1,8 @@
+
+- OPEN CURSOR versus SELECT + ENDSELECT
+- parallel processing ?
+- if you dont provide package size, you will process data one by one
+- only use it if large amounts of data need to be processed
 **What is a Cursor?** Think of a cursor like a bookmark in a very large book. Instead of reading the entire book at once (which would be overwhelming), you read it page by page, keeping track of where you are with your bookmark.
 
 **How it Works:**

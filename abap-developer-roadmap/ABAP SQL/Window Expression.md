@@ -18,5 +18,5 @@ SELECT  Product,
 FROM I_Product
 ```
 
-#### Resources
+### Resources
 - [Window Expressions | ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/ABAPSELECT_OVER.html)

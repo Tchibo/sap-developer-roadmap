@@ -14,21 +14,11 @@ ABAP SQL supports full CUD (Create, Update, Delete) functionality. This subset o
 DELETE FROM ztable WHERE product = '123'.
 ```
 
-> [!NOTE] Vorschlag
->Modern ABAP development follows specific best practices:
->- **Clean Core**: for SAP Standard Business Objects use existing standard CDS and business object interfaces
->- Custom Objects and Tables: 
->	- **Read Operations**:  Use ABAP CDS views rather than querying database tables directly
->	- **Write Operations**: Manage Create, Update, and Delete operations through RAP (RESTful ABAP Programming) entities instead of direct execution against database tables.
->- **Performance**: Keep database access efficient by reducing both the frequency of calls and the volume of data requested. For example, avoid SELECT statements in loops and only retrieve the specific fields you need. 
-
 Modern ABAP development follows specific best practices with certain limitations:
-- **Read Operations**: Should utilize ABAP CDS views rather than querying database tables directly
+- **Read Operations**: Should utilize ABAP CDS views rather than querying database tables directly.
 - **Write Operations**: Create, Update, and Delete operations should be managed through RAP (RESTful ABAP Programming) entities instead of direct execution.
 - **Performance**: Keep database access efficient by reducing both the frequency of calls and the volume of data requested. For example, avoid SELECT statements in loops and only retrieve the specific fields you need. 
-> [!NOTE] Anmerkung
->- remove the #website - or lets do this einheitlich überall
-
+- **Clean Core**: Use existing standard CDS and business object interfaces to access Standard Business Objects.
 
 ### Resources   
 - #website [ABAP SQL | ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/ABENABAP_SQL.html)

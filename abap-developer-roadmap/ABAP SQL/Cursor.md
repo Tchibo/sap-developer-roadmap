@@ -38,6 +38,6 @@ SELECT Product FROM I_Product WHERE ProductCategory = '00'
 ENDSELECT.
 ```
 
-#### Resources
+### Resources
 - #website [OPEN CURSOR - ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapopen_cursor.htm)
 - #website [ENDSELECT - ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendselect.htm)

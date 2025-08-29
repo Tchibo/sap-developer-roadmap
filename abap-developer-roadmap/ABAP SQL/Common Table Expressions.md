@@ -1,11 +1,6 @@
 **Common Table Expressions (CTEs)** are temporary named result sets in ABAP SQL. They work like temporary views that allow you to combine multiple SELECT operations within a single ABAP SQL statement.
 
 The `WITH` statement allows you to define CTEs using the syntax `<cte_name> AS ( <cte_select_statement>)`, which can then be joined with the main SELECT statement.
-
-> [!NOTE] Anmerkung
->- hab Vor- und Nachteil umgedreht, liest sich besser gen Use Case für Einsatz und worauf man dann achten sollte.
->- und hab Usage mit aufgenommen (wirf es gern raus wenn es für dich nicht passt). aber fand es relativ zutreffend bei deinen kapiteln
-
 ### Usage
 CTEs are most appropriate when processing large datasets that should remain at the database level rather than being transferred to the ABAP application server to optimize performance and memory usage.
 
@@ -28,6 +23,5 @@ INNER JOIN +division_counts AS dc
 INTO TABLE @DATA(lt_product).
 ```
 
-
-#### Resources
+### Resources
 - #website [WITH, subquery_clauses | ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/ABAPWITH_SUBQUERY.html)

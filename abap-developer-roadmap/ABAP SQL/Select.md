@@ -17,5 +17,5 @@ ORDER BY NumberOfEntries
 INTO TABLE @DATA(lt_product).
 ```
 
-#### Resources
+### Resources
 - #website [ABAP SQL - Read Access with DQL | ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/ABENABAP_SQL_READING.html)

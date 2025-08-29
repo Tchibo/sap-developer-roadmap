@@ -1,6 +1,3 @@
-> [!todo]
-> Zu allgemein, können wir hier mehr ins Detail gehen? Vielleicht können die UX-Roadmap'ler noch etwas beitragen?
-
 #Intermediate 
 SAP Build Code represents a significant advancement in the SAP development landscape, combining AI-driven code generation with a robust development environment. It enables developers to build applications more efficiently while fostering collaboration between teams, which ultimately drives innovation in organisations.
 
@@ -10,7 +7,7 @@ Booster supports you in setting up and creating projects. It is a form-based inp
 
 Joule helps you with the development of CAP and SAP Fiori
 
-
+# Resources
 #Article [What is SAP Build Code | SAP Help Portal](https://help.sap.com/docs/build_code/d0d8f5bfc3d640478854e6f4e7c7584a/504854f457cc4fbf9f79136dbc773618.html?locale=en-US)
 #Article [Working in SAP Business Application Studio | SAP Help Portal](https://help.sap.com/docs/build_code/d0d8f5bfc3d640478854e6f4e7c7584a/bfc517841be24ccb93ad64a31eb53e35.html?locale=en-US)
 #course [Setup SAP Build Code in SAP BTP | SAP Tutorials](https://developers.sap.com/tutorials/build-code-setup..html)

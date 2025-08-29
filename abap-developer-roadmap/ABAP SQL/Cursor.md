@@ -1,6 +1,12 @@
-When you process large data sets, it can be helpful to slice the data is workable slices and process them one after the other. This is what a cursor does. You can create a cursor for a certain select and fetch chunk by chunk of that data in a loop and process it.
+> [!NOTE] Vorschlag
+>For processing large data sets on the application server the concept of cursors exists. Basically a request  to the database is needed that would return too much data to process at once. Therefore the data is requested in slices and only the slices are processed. The cursors marks the psotion of the next slice and allows to read further from the database.
+
+When you process large data sets, it can be helpful to slice the data in workable slices and process them one after the other. This is what a cursor does. You can create a cursor for a certain select and fetch chunk by chunk of that data in a loop and process it.
+
 An ABAP cursor creates a cursor on the database. The database processes the according query but does not return the result. Instead it holds a pointer (cursor) to the current position and returns the requested chunk of data.
+
 This reduces the data that has to be cached in the application server at the time. But it also results in multiple selects to the database.
+
 Cursor is often used to process entry by. This results in a lot of database traffic. Only use cursor for big datasets. If you want to improve performance, check if you can use sorted tables instead.
 
 It is important to Close a cursor after processing 
@@ -8,8 +14,12 @@ It is important to Close a cursor after processing
 - OPEN CURSOR versus SELECT + ENDSELECT
 - parallel processing ?
 
+> [!NOTE] Vorschlag
+>### Usage
+>The cursor concept is an relatively old concept but still used within ABAP. Before using this possibility it should be always checked if its the right concept to provide data in mass quantity / what are the real application needs.
 
-**How it Works:**
+
+### Example
 ```
 " 1. Open the cursor (place your bookmark)
 OPEN CURSOR @cursor FOR SELECT * FROM huge_table WHERE...

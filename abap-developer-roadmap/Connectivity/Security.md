@@ -12,3 +12,5 @@ At least when interacting with Cloud services, integrations must not use basic a
 
 Authorizations are especially relevant for inbound communication were its necessary to determine which rights a user has to create, change, delete or read a certain information. For the inbound case the authorizations needs to be restricted. 
 
+> [!NOTE] Anmerkung
+> ADD Resources

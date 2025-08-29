@@ -8,6 +8,9 @@ Another construct that uses an implicit database cursor is the `SELECT … ENDSE
 #### Usage
 Only use cursors when you process huge datasets that cannot be fetched at once. Review alternatives like HANA calculation views or CDS table functions with AMDP. If you use cursors to improve performance when looping through internal tables, use sorted tables instead.
 
+> [!NOTE] Anmerkung Nico
+>Ich stelle die grundsätzliche Nutzung von Cursor mal infrage. Wenn man einen Cursor nutzt, ist das aus meiner Sicht ein architektonischer Fehler - zumindest fällt mir kein Use Cases ein wo man so etwas brauchen sollte. Insofern lasse ich das mal unangetastet / überlasse Hendrik die finale Entscheidung über drin oder raus lassen. Aber aus meiner Sicht wiederspricht Cursor dem Prinizip der Minimalisierung des Austausches zwischen App und DB Server..
+
 ```ABAP
 DATA lt_product TYPE TABLE OF I_Product.
 

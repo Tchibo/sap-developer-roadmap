@@ -1,4 +1,3 @@
-
 The ABAP application server is the core execution engine for ABAP code. It manages the processing of business logic, handles communication between components, and ensures transactional consistency. Key capabilities include:
 
 - Lifecycle management for ABAP programs and classes

@@ -1,3 +1,0 @@
-The SAP Message Server is part of the ABAP Server Central Services instance (ASCS) and only exists once in an SAP system. It acts as a central means of communication between the application servers, controls the load distribution for logins via SAP GUI and RFC, and serves as an information point for the SAP Web Dispatcher and the ABAP instances. When an instance is started, the dispatcher process reports its services to the message server. If the message server fails, it must be restarted as quickly as possible to ensure trouble-free operation.
-
-[SAP Message Server | SAP Help Portal](https://help.sap.com/docs/ABAP_PLATFORM_NEW/77b3972f873044acb3a70258f3984c64/47c2e77bb8fd3020e10000000a42189d.html?locale=en-US)

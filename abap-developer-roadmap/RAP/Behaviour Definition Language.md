@@ -1,6 +1,13 @@
 #Medium 
+
+> [!todo] Naming 'behaviour pool'
+> Here and in other sections of the RAP topic please use 'behaviour pool' instead of 'behaviour pool class'. The the behaviour implementation class is a 'class pool'. 
+
 The Behavior Definition Language (BDL) in SAP’s RESTful Application Programming Model defines the runtime behavior of business objects declaratively. Any operation declared in BDL must also be implemented as a method in the associated ABAP behavior pool class. A single BDL file defines a whole business object, including its root entity and all child entities.
 #### Types of Behavior
+
+> [!todo] 'Operation types'
+> Making a field read-only or mandatory is static feature control, i.e. 'Making field read only or mandatory' could be used to explain list item 'Feature and authorization control'
 
 RAP entities support different operation types:
 

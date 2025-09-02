@@ -1,4 +1,8 @@
 #Medium 
+
+> [!todo] Rather just mention under UI Annotations?
+> Facets as one of the @UI annotations seems to get too much attention compared to the others by making it a separate article. Perhaps just mention under 'UI Annotations'
+
 Facets are building blocks on the object page of a RAP UI. They can appear in the header or in the body section. They can be field groups, lists of entries (line items), charts, or collections that group other facets.
 ```
 @UI.facet: [ {

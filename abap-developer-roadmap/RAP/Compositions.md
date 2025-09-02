@@ -6,6 +6,9 @@ Core Data Services (CDS) compositions are a special type of association that ena
 - Operations cascade from parent to child (create, update, delete). For example, child entities are automatically deleted when the parent is removed.
 - Changes to parent and child entities occur within the same transaction, ensuring data consistency.
 
+> [!todo] Please check code snipped
+> In reference to I_SalesOrder I suggest a I_SalesOrder Item composition. You could look at I_SalesOrderTP to see how they do the composition from order to item.
+
 ```DDL
 define root view entity I_SalesOrder as select from xxx
 

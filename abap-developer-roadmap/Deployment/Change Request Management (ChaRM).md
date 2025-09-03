@@ -1,8 +1,5 @@
 #Basic 
 
-> [!todo] Gekürzt
-> Ich habe den Text halb-manuell/halb-ChatGPT gekürzt (236 Wörter zu 193 Wörter) und dabei versucht, nichts wegzulassen. Passt das für dich?
-
 Change Request Management (ChaRM), an offering of the SAP Solution Manager, manages the software development lifecycle from implementation through testing to deployment.
 
 A change request in ChaRM bundles transport requests containing transportable content created or changed in development systems. It validates the transport content to prevent side-effects and orchestrates transport execution, ensuring a clear separation of responsibilities among consultants, project managers, and developers.

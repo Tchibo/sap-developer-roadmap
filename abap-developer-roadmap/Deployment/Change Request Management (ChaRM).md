@@ -4,19 +4,11 @@ Change Request Management (ChaRM), an offering of the SAP Solution Manager, mana
 
 A change request in ChaRM bundles transport requests containing transportable content created or changed in development systems. It validates the transport content to prevent side-effects and orchestrates transport execution, ensuring a clear separation of responsibilities among consultants, project managers, and developers.
 
-> [!todo] Anmerkung
-> Musste bei den Stati an eine Liste denken, hab es mal versucht in ner Tabelle abzubilden. Schau mal wie sich das für dich anfühlt.
-> Dein Fließtext:
-
 A change request starts with the action 'Set status to in development'. Developers can then create and append transport requests in the development system, allowing multiple contributors to record and collaborate on changes.
 
 Once development is ready for testing, all tasks in the transport requests must be manually released. Triggering 'Hand over to functional unit test' initiates a 'transport of copies' to the quality assurance system. During release, ChaRM performs code quality checks using the default ABAP Test Cockpit profile.
 
 Upon successful testing by the functional consultant, 'Confirm successful testing' releases all transport requests associated with the change request. The following action 'Import to production' deploys them into the production system. 
-
-> [!todo] Vorschlag
-> Musste bei den Stati an eine Liste denken, hab es mal versucht in ner Tabelle abzubilden. Schau mal wie sich das für dich anfühlt.
-> Als Vorschlag - angepasst:
 
 Changes in ChaRM go through the following phases during implementation and deployment:
 
@@ -31,14 +23,6 @@ Changes in ChaRM go through the following phases during implementation and deplo
 | Confirmed & Closed   | Change was successfully deployed and ChaRM is closed.                                                                                                                                      |
 
 ChaRM performs transport-related validations to shield target systems from out-of-sequence imports or downgrades, thereby preventing syntactical and functional errors. Additionally it can also trigger code quality checks during transport task & request release using the ABAP Test Cockpit profile.
-
-> [!todo] Anmerkung
->  Was im Fließtext oben auf jeden Fall fehlt ist der Ready for Import Status - der problematischste von allen ^^
->  hab versucht noch etwas zu den themen 
->  CHaRMs sind nicht in produktion (Status auf succesfully tested) und
->  CHaRMs enthalten viele Objektkonflikte zu schreiben
->  da wird der Artikel aber zu lang
->  weiß nicht, ob wir potentielle Probleme bei der nutzung auch kurz anreißen wollen - vermutlich eher nicht
 
 ## Further reading
 

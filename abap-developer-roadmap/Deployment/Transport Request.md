@@ -1,8 +1,5 @@
 #Basic 
 
-> [!todo] Gekürzt
-> Ich habe auch diesen Text gekürzt (268 -> 204 Worte), passt das für dich?
-
 Within the ABAP Environment transport requests serve as the deployment mechanism to move development artifacts and configuration from development to quality assurance and production. Changes to transportable content are disallowed in quality assurance and production, ensuring there is only one original system for configuration or repository objects.
 
 Types of transport requests include workbench requests for repository objects, customizing requests for client-dependent setups, repairs for alterations to SAP standard, and the advanced type transport of copies, essential in quality assurance processes.

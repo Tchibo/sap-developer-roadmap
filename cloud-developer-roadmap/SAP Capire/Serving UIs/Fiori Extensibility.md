@@ -1,5 +1,12 @@
-#Advanced 
-
+---
+tags:
+  - frontend
+  - fiori-elements
+  - advanced
+links:
+source:
+aliases:
+---
 Using Fiori Tools in SAP Build Code you can extend custom built Fiori Elements applications with 'Controller Extensions' that allow you to add or hide fragments, add custom UI logic or override standard Fiori Elements behaviour.
 
 Using Controller Extensions you can a.) add custom event handler methods and/or b.) change standard behaviour of Fiori Elements (by defining 'overrides' for overrideable features and their lifecycle hooks). Using a 'routing' override for lifecycle hook 'onBeforeNavigation' you can e.g. change the object page that the Fiori Elements List Report page navigates to on line item click.

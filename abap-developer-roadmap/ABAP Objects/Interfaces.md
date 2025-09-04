@@ -1,5 +1,7 @@
 #Basic 
-#readyforreview 
+
+> [!toDo] Method parameters typed with reference to interface
+> ...perhaps deserve a special mention as it gives the method implementation a handle to deal with object instances that are not related by inheritance.
 
 In ABAP, an **interface** defines **method signatures**, **constants** and **types** without providing an implementation. It acts as a contract: any class that implements the interface must provide concrete implementations for all defined methods. Unlike inheritance, interfaces do not dictate structure or behavior beyond what is declared, which allows developers to combine multiple interfaces in one class. Interfaces allow a calling method to call a set of different classes in the same way, as they all share the same method signature through their interface. 
 

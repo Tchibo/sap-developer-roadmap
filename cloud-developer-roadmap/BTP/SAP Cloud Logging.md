@@ -13,5 +13,5 @@ Within an [[SAP Capire]] project, the SAP Cloud Logging Service can be added usi
 **Sources**
 - [SAP Discovery Center - SAP Cloud Logging](https://discovery-center.cloud.sap/serviceCatalog/cloud-logging?service_plan=overall-(large,-standard,-and-dev)&region=all&commercialModel=btpea)
 - [SAP Help - SAP Cloud Logging](https://help.sap.com/docs/cloud-logging?locale=en-US)
-- Tchibo Confluence - SAP Cloud Logging
+- [Tchibo Confluence - SAP Cloud Logging](https://wiki.tchibo-intranet.de/x/nIpfP)
 - [SAP Community - From Application Logging to Cloud Logging: Service Innovation Guide](https://community.sap.com/t5/technology-blog-posts-by-sap/from-application-logging-to-cloud-logging-service-innovation-guide/ba-p/13938380)

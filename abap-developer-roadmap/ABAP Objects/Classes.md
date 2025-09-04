@@ -1,5 +1,4 @@
 #Basic 
-#readyforreview 
 
 ABAP implements many object-oriented principles familiar from other languages:
 
@@ -13,6 +12,11 @@ ABAP implements many object-oriented principles familiar from other languages:
 # ABAP specifics
 ## Dictionary
 Most types are defined in the Dictionary for reuse across the system. Public types in ABAP classes can also be reused, often for derived types.
+
+  
+> [!todo] Variables not objects... Relevant for learners?
+> For developers coming from other languages it might be helpful to know. But for the novice ABAP learner perhaps too much information?
+
 ## Variables are not objects
 Variables are never objects, but references and field symbols can point to them.
 ## Global Classes
@@ -24,5 +28,13 @@ A **global class** consists of several repository objects:
 4. **Test classes** for ABAP Unit tests.
 5. The **macro**, a legacy artifact rarely used today.
 
+> [!toDo] Code snippet of a simple class definition and implementation?
+> It mark spark the reader's imagination if you provide a simple class definition with a method, some attribute and the implementation thereof.
+ 
 # Resources
 #course [Working with Local Classes](https://learning.sap.com/learning-journeys/acquire-core-abap-skills/defining-a-local-class_d4f46591-157b-468f-b94a-8d484d5ddca9)
+
+
+> [!todo] How about this article
+> #article [Working with ABAP Classes](https://help.sap.com/docs/ABAP_PLATFORM_BW4HANA/c238d694b825421f940829321ffa326a/1fbf9bd2d6664b88982173af52765a03.html?locale=en-US&q=Class+pool)
+

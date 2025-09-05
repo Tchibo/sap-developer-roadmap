@@ -8,8 +8,9 @@ AMDP **Procedures** solve complex, multi-step tasks and offer finer control th
 
 ## When to use
 
-If a task can be solved well in ABAP, prefer ABAP for maintainability and portability. ABAP is widely understood and easier to debug, whereas SQLScript is a separate skill. Reserve AMDP for cases where pushdown is required for performance or when very large result sets would otherwise be transferred to the ABAP stack only to be filtered later.  
-Also consider CDS table functions backed by Calculation Views with a minimal amount of AMDP code for complex selections.
+If a task can be solved well in ABAP, prefer ABAP for maintainability and portability. ABAP is widely understood and easier to debug, whereas SQLScript is a separate skill.
+Reserve AMDP for cases where pushdown is required for **performance** or when **very large result sets** would otherwise be transferred to the ABAP stack only to be filtered later or if you need to access data from other schemas.
+Do consider CDS table functions backed by Calculation Views with a minimal amount of AMDP code for complex selections.
 
 # Resources
 #website [ABAP Managed Databse Procedures](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/abap-managed-database-procedures-amdp)

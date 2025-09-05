@@ -1,3 +1,4 @@
+#basic
 This component enables you to manage your database using the Computing Center Management System (CCMS). CCMS gives extensive support when scheduling and managing background jobs.
 
 With background processing in CCMS you can

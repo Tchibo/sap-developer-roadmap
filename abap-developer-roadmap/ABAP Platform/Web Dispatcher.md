@@ -1,3 +1,4 @@
+#intermediate 
 The SAP Web Dispatcher is not part of ABAP Platform. Technically it is located between the Internet and your SAP system. 
 
 It is the entry point for HTTP(s) requests into your system and as a “software web switch”, SAP Web Dispatcher can reject or accept connections. When it accepts a connection, it balances the load to ensure an even distribution across the servers. 

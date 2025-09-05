@@ -1,3 +1,4 @@
+#basic
 The RFC gateway carries out RFC services based on TCP/IP. These services enable SAP systems and external programs to communicate with one another. (See Connectivity / RFC) Each application server instance of an ABAP system contains an RFC gateway. 
 
 ### Gateway Processes

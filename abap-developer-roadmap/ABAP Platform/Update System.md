@@ -1,3 +1,4 @@
+#intermediate 
 In SAP a business process is mapped by means of a transaction, which can include several changes. The data changes caused by this process should be completely executed in the database, or not at all. (see also chapter logical unit of work / LUW)
 
 This is ensured by the  SAP update system, which offers increased security, performance, and the ability to recover when making database changes.

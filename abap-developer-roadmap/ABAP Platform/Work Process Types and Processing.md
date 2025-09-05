@@ -1,3 +1,4 @@
+#intermediate 
 Within SAP different types of work processes (wp) exist in which requests are executed. This can be seen in transaction SM51 or SM66 in the column work process type. 
 
 Work processes can also be configured out in different quantities depending of day or night work mode. So during day time you might have higher quantities of dialog wp's and during night time higher quantities of batch wp's.

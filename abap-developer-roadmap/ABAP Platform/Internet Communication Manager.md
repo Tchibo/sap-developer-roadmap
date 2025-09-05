@@ -1,3 +1,4 @@
+#intermediate
 The ICM is a component of Application Server ABAP. It is implemented as a separate process, which is started and monitored by the ABAP dispatcher.
 
 The Internet Communication Manager ensures the communication between the SAP system and the outside world. In its role as server it processes requests from the Internet. The processing of URL requests is dependent on the configured server/port combination. Depending on the URL the ICM calls the relevant local handler.

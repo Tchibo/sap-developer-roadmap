@@ -1,3 +1,4 @@
+#basic
 The SAP system uses a locking mechanism to ensure synchronized database access and to prevent parallel transactions from changing the same data at the same time. This locking concept is implemented by the Standalone Enqueue Server 2.
 
 In a SAP transaction, enqueue locks are set when data is display and changed and can exist across several database LUWs. Database locks are much shorter. The difference between SAP LUW and database LUW relates to the functional scope of the update.

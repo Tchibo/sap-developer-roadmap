@@ -1,3 +1,4 @@
+#intermediate 
 There is only one SAP Message Server in every ABAP system, which runs as part of the ABAP Server Central Services instance.
 
 It performs the following tasks in the ABAP system:

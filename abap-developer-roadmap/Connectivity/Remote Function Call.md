@@ -1,7 +1,7 @@
-- [ ] Only mention the binary format once.
-	- [ ] hab ich umgeschrieben - Absatz über Usage
-- [ ] How can I call RFC from non-SAP? Via an URL?
-	- [ ] das Zauberwort heißt JCO - respektive einfach nicht RFC verwenden :-D - siehe Anmerkung
+- [x] Only mention the binary format once.
+	- [x] hab ich umgeschrieben - Absatz über Usage
+- [x] How can I call RFC from non-SAP? Via an URL?
+	- [x] das Zauberwort heißt JCO - respektive einfach nicht RFC verwenden :-D - siehe Anmerkung
 
 Remote Function Call (RFC) is a proprietary data protocol for the data exchange between SAP systems. The RFC mechanism serializes the parameters and structures of function modules into a binary protocol for transfer via network connections. The SAP RFC libraries (e.g. SAP NetWeaver RFC Library) serialize and deserialize this data automatically when it is sent or received. 
 

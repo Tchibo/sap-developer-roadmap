@@ -1,3 +1,7 @@
+
+> [!NOTE] Vorschlag
+> An **IDoc (Intermediate Document)** is a proprietary standardized data format from SAP that enables to exchange master as well as transactional business data (e.g. article master data, orders). The data transfer is performed as a **push**: The source SAP system stores the IDoc in a repository of the target system (either SAP or non-SAP). The stored IDoc is processed by the target system **asynchronously**.
+
 An **IDoc (Intermediate Document)** is a proprietary standardized data format from SAP that enables the asynchronous exchange as a push of master as well as transactional business data (e.g. article master data, orders) between SAP systems and external partners.
 
 It consists of a control record and several data and status records. The control record contains details of the dispatch (e.g. type & recipient), status records the status of the processing within SAP and the data contains the actual data of the transmission. See also the example at the bottom.
@@ -5,17 +9,18 @@ It consists of a control record and several data and status records. The control
 ### Usage
 There are various ways of transmitting IDocs to a destination, such as tRFC, via XML file and sending XML via HTTP. In general only sending XML by HTTP should be used while creating and moving files should be avoided.
 
-IDocs provide the possibility to decouple the creation or consumption of  data within SAP from receiving / sending the data and should be used therefore used only in such use cases.
-### Ressources
+- [ ] Das verstehe ich nicht. Lass uns dazu mal sprechen.
+IDocs provide the possibility to decouple the creation or consumption of data within SAP from receiving / sending the data and should therefore be used only in such use cases.
+### Resources
 
 #website Introduction, Administration & Development of IDocs [IDoc Interface/ALE | SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/8f3819b0c24149b5959ab31070b64058/4ab074b6aa3a1997e10000000a421937.html?locale=en-US)
 
 ### Example
-
+- [ ] Die Sterne verwirren etwas. Aber gut, dass du "control record" etc. eingefügt hast.
 ```
 **< ORDERS04 >**
 	**< IDOC >**
-	"=>  controll record"
+	"=>  control record"
 		**< EDI_DC40 >**
 			**< DOCNUM >** **0000002795406728** **</ DOCNUM >**
 			**< MESTYP >** **ORDERS** **</ MESTYP >**

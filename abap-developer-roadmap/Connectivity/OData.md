@@ -2,7 +2,7 @@
 - [ ] #todo Mention CDS & RAP?
 - [ ] #todo OData = standard way to go for custom developments
 
-**Open Data Protocol (OData)** is an open standard developed by Microsoft as  REST based data access via HTTP.  REST ensures resource-oriented URLs and the correct use of HTTP verbs (GET, POST, etc.) for each action. OData builds on this and standardizes the request pattern, adding uniform query options for paging (`$top`, `$skip`), filtering (`$filter`), and sorting (`$orderby`).
+**Open Data Protocol (OData)** is an open standard developed by Microsoft as REST based data access via HTTP.  REST ensures resource-oriented URLs and the correct use of HTTP verbs (GET, POST, etc.) for each action. OData builds on this and standardizes the request pattern, adding uniform query options for paging (`$top`, `$skip`), filtering (`$filter`), and sorting (`$orderby`).
 
 OData is provided in two versions: V2 was widely used in the past.
 => Offen: hat V2 noch eine Daseinsberechtigung abseits das es nicht alle Standard APIs als V4 gibt? Check gen Arjo

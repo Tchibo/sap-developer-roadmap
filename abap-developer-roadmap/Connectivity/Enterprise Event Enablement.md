@@ -1,17 +1,7 @@
+The enterprise event enablement provides the ability to exchange events between SAP S/4HANA and a message broker. It supports outbound / publish as well as inbound/ subscribe scenarios.
 
+In order to either publish or consume events its necessary to define a channel to a message broker. Via outbound binding all event topics are defined that shall be published on this channel to the message broker. The inbound binding works in the same way with subscribing to a queue on the broker and to a certain event topic coming from this queue.
 
-
-
-
-to check gen Events [ABAP Channels | SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/05d041d3df1a4595a3c45f57c15e2325/18ef61f6415743658407d4d17f06e950.html?locale=de-DE)
-
-ist das das framework für event output / receive?
-
-
-
+The configuration of the channels is done via /IWXBE/CONFIG. For administration, testing as well as monitoring the transcation /IWXBE/EEE_SUPPORT is recommended., collecting all relevant transactions in the EEE context.
 ### Resources
-[ABAP Channels | SAP Help Portal](https://help.sap.com/docs/ABAP_PLATFORM_NEW/05d041d3df1a4595a3c45f57c15e2325/18ef61f6415743658407d4d17f06e950.html?locale=en-US)
-[ABAP Daemons | SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/753088fc00704d0a80e7fbd6803c8adb/311af9b769d84fffa7b7384bae27109c.html?locale=de-DE)
-
-
-[Enterprise Event Enablement | SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/810dfd34f2cc4f39aa8d946b5204fd9c/c200f98fadb64ff1828ed5696c86fca2.html?locale=en-US)
+#website[Enterprise Event Enablement | SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/810dfd34f2cc4f39aa8d946b5204fd9c/c200f98fadb64ff1828ed5696c86fca2.html?locale=en-US)

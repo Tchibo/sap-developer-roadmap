@@ -1,4 +1,5 @@
 - [ ] Nice overview. But a bit too munch. Could you integrate it with the corresponding technologies? Otherwise split it e.g. Push/Pull, Synchronous/Asynchronous, Data/Process integration, Authorization mechanisms.
+	- [ ] ist etwas schwierig, da die Technologien auf mehrere Pattern referenzieren / Technologien wiederum zu mehreren Pattern gehören. Hab eines gen Security verschoben und etwas gekürzt - im Zweifel kann das Kapitel jetzt auch raus - was meinst?
 ### Push Communication
 **Push communication** is a point to point messaging pattern where the provider actively initiates and delivers information to the consumer without the recipient requesting it. One example for push communication is the distribution of assortment lists by IDoc.
 ### Pull Communication
@@ -9,9 +10,4 @@
 **Synchronous communication** is a method where the sender transmits a message and waits for an immediate response from the receiver before continuing. One example is an OData request to the backend from a Fiori app.
 ### Asynchronous communication
 **Asynchronous communication** is a method where the sender transmits a message and continues processing without waiting for an immediate response from the receiver. Examples for asynchronous messaging are PubSub in general but also IDoc messages.
-### Process vs. Data Integration
-**Process integration** focuses on integration of **business objects** between systems (mainly on Application server level), while **data integration** focuses on combining, transforming and moving of mass **data** between systems (mainly on database level).
-### User Integration
-**User integration** is the seamless connection of user interfaces and experiences across multiple systems without needing to switch between separate interfaces.
-### Functional User vs. Principal Propagation
-The **Functional user** is a technical service account used for system-to-system communication, while **principal propagation** passes the actual end-user's identity through the entire call chain so that backend systems know who the real user is.
+

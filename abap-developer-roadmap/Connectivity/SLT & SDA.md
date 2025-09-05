@@ -8,5 +8,5 @@ Changes are recorded in the source database by database triggers and then replic
 ### Usage
 Careful consideration must be given to the use of SDA & SLT for each use case, depending on the load generated to the database server, but also the redundancy and complexity added to the solution by the use of the respective technology.
 ### Resources
-[Replicating Data to SAP HANA | SAP Help Portal](https://help.sap.com/docs/SAP_LANDSCAPE_TRANSFORMATION_REPLICATION_SERVER/007c373fcacb4003b990c6fac29a26e4/59eeabf5511d48d6b21326880fd58fd9.html?locale=en-US&q=System+Landscape+Transformation)
-[SAP HANA Smart Data Access | SAP Help Portal](https://help.sap.com/docs/SAP_HANA_PLATFORM/6b94445c94ae495c83a19646e7c3fd56/a07c7ff25997460bbcb73099fb59007d.html?locale=en-US&q=smart+data+access)
+#website [Replicating Data to SAP HANA | SAP Help Portal](https://help.sap.com/docs/SAP_LANDSCAPE_TRANSFORMATION_REPLICATION_SERVER/007c373fcacb4003b990c6fac29a26e4/59eeabf5511d48d6b21326880fd58fd9.html?locale=en-US&q=System+Landscape+Transformation)
+#website [SAP HANA Smart Data Access | SAP Help Portal](https://help.sap.com/docs/SAP_HANA_PLATFORM/6b94445c94ae495c83a19646e7c3fd56/a07c7ff25997460bbcb73099fb59007d.html?locale=en-US&q=smart+data+access)

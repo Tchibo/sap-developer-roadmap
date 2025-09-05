@@ -1,11 +1,20 @@
 ### System Landscape Transformation 
-- [ ] Hier könnte noch die Info rein, dass das ein Tool des ABAP Application Server ist und die Daten von dort migriert werden.
-System Landscape Transformation (SLT) is a data replication from a source system to a target database.
+- [ ] Hier könnte noch die Info rein, dass das Tool auf dem APP Server läuft und dort Ressourcen blockt, nicht HANA nativ
+System Landscape Transformation (SLT) is a data replication from a source system to a target database. 
 
-Changes are recorded in the source database by database triggers and then replicated in a target database. In SAP, this is done by a trigger that updates the keys of the object to a staging table after a change to a DB table. From there, they are updated to the target database by a replication job on the application server.
+
+Changes are recorded in the source database by database triggers and then replicated in a target database. 
+
+Within SAP a change is made to the source table the key is replicated to a staging table. from there an observer job reads all the data for this key and replicates it to a target table. 
+
+
+In SAP this is done by a trigger that updates the keys of the object to a staging table after a change to the database table of the changed object. 
+
+From there, they are updated to the target database by a replication job on the application server.
 
 ### Smart Data Access
-- [ ] Hinzufügen?: To access a virtualized database table in ABAP, they must be made available via a CDS table function and the ABAP AMDP framework.
+- [ ] Hinzufügen?: To access a virtualized database table in ABAP,  requires additional effort /    -> they must be made available via a CDS table function, ABAP AMDP framework or Calc Views
+- [ ] 
 **Smart Data Access(SDA)** is a technology in SAP HANA that enables data federation by virtualizing remote data sources, allowing SAP HANA to access and query external databases as if their tables were local within HANA.
 ### Usage
 Careful consideration must be given to the use of SDA & SLT for each use case, depending on the load generated to the database server, but also the redundancy and complexity added to the solution by the use of the respective technology.

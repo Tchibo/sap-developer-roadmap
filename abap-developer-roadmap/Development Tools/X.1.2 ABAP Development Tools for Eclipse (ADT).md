@@ -5,7 +5,7 @@ ADT offers essential functions such as syntax highlighting, code completion and 
 
 It is advisable to use the latest version of Eclipse and ADT. This ensures that all new functionalities are available.
 
-ADT is the only option to develop in BTP ABAP Environment. SAP makes AI Featurs only avadable in ADT and sutable ABAP Backend System on Premise or in the Cloud. 
+ADT is the only option to develop in BTP ABAP Environment. SAP makes AI Featurs only avadable in ADT and suitable ABAP Backend System on Premise or in the Cloud. 
 
 # Resources
 #Article [ABAP-Entwicklungswerkzeuge - Eclipse | SAP Help Portal](https://help.sap.com/docs/ABAP_PLATFORM/7bfe8cdcfbb040dcb6702dada8c3e2f0/a3314a7fd9384ce8a40eff2d3b144628.html)

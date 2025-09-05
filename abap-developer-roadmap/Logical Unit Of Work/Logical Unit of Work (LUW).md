@@ -1,4 +1,2 @@
-> [! Anmerkung]
-> Ganz nach oben als Einleitung in Roadmap
 
 A Logical Unit of Work (LUW) is one of the most fundamental concepts in SAP for ensuring data consistency. It represents a sequence of logically connected steps that must be executed as an inseparable, atomic unit. The principle is simple: all steps succeed, or no steps succeed. This "all-or-nothing" approach prevents the database from being left in a partial, inconsistent state if an error occurs mid-process.

@@ -1,19 +1,6 @@
-- [x] Vorschlag 1
-	- [ ] bin ich teils gefolgt :-D
-	- [ ] hab aber etwas abgewandelt - check mal bitte
-- [x] No images allowed - sorry
-- [ ] Kann man das auch für Z-BOs verwenden? Bzw. Lohnt es sich, dafür zu Implementieren oder sollte man dann eine neuere Technologie nehmen?
-	- [ ] wäre ich sehr vorsichtig / habs mal erwähnt, würde das aber immer gegen den integrations Use Case prüfen - könnte für Customizing Sinn machen - aber da sollte eigentlich Standard da sein
-- [x] Was ist mit Alternativen wie MDG, MDI? In Usage erwähnen?
-	- [ ] MDG = Master Data Governance - zentrales system zur Stammdatenpflege / kontrolle 
-	      Könnte man zur zentral. Stammdatenpflege mit gefolgter Verteilung nutzen - klingt so als käme DRF aus just diesem Kontext -> nutzen wir aber nicht
-	- [ ] MDI = auch keine Alternative - wird versorgt via DRF & ist für 2028 abgekündigt
-- [x] Ist das nur für Master data?
-- [x] ist die Replikation independent von der Kommunikationsart / Technnology
+
 > [!open]+ Vorschlag 1
-> The Data Replication Framework (DRF) is a tool for replicating the master data of standard business objects (e.g., Business Partner) from one system to another. DRF replication is independent of the transmission technology (e.g., IDoc, SOAP, RFC with BAPI).
-> 
->For supported standard business objects, no custom outbound implementation is required because SAP provides it. DRF customizing is performed in the source system via transaction DRFOUT.
+> For supported standard business objects, no custom outbound implementation is required because SAP provides it. DRF customizing is performed in the source system via transaction DRFOUT.
 
 The Data Replication Framework (DRF) provides the ability to replicate master data as well as  customizing from one SAP system to another. The replication can either be done as full replication or as delta replication which is then based on change data capture methods within SAP.
 

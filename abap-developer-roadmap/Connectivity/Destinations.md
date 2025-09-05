@@ -1,10 +1,14 @@
-Destinations are the construct where endpoints as well as authentication information are stored or referenced. Typically this is done via transaction SM59 which is widely used within SAP.
-The following destination types can be administered here
+Destinations are the construct where endpoints as well as authentication information are stored or referenced.
+
+The following destination types can be administered 
 - HTTP Destinations 
 - RFC / ABAP Destinations
 - registered Server Programs
+- Channel endpoints 
 
-While SM59 Destinations are widely used within SAP, there are other ways to store destinations for other technologies. For example, destinations and authentication settings for SOAP services are maintained via SOAMANAGER.
+The main transaction for the destination administration is the SM59. Here you can maintain endpoints as well as authentication information for the endpoints. Still there are other ways to store destinations which might also reference back to the SM59.
+##### Other Transactions
+SOAMANAGER is used to maintain endpoints as well as authorization information for SOAP services. OA2C_CONFIG is used to maintain oAuth configurations in order to be used for authorization usage during data exchange.
 
 > [!NOTE] Anmerkung
 > ADD Resources

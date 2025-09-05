@@ -1,11 +1,8 @@
 #Basic 
 
-> [!toDo] Method parameters typed with reference to interface
-> ...perhaps deserve a special mention as it gives the method implementation a handle to deal with object instances that are not related by inheritance.
-
 In ABAP, an **interface** defines **method signatures**, **constants** and **types** without providing an implementation. It acts as a contract: any class that implements the interface must provide concrete implementations for all defined methods. Unlike inheritance, interfaces do not dictate structure or behavior beyond what is declared, which allows developers to combine multiple interfaces in one class. Interfaces allow a calling method to call a set of different classes in the same way, as they all share the same method signature through their interface. 
 
-For testability it is best to always start with the interface definition before creating a class. Variables can by typed to interfaces and it is good practice to do so.
+For testability it is best to always start with the interface definition before creating a class. Variables and method parameters can by typed to interfaces instead of classes and it is usually good practice to do so.
 
 While Interfaces support **constants and types**, it is best practice *not* to define types in Interfaces if they are re-used between classes and instead opt for either an abstract class or a definition in the ABAP Dictionary.
 

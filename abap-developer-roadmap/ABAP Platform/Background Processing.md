@@ -9,9 +9,9 @@ Background processing lets you move long-running or resource-intensive program r
 SAP offers a wide variety to schedule programs as steps within entire job chains and let you create periodically repeats of these jobs.
 
 ### Usage
-While its certainly most comfortable to schedule jobs within SAP, most corporations have external job control tools. These should be taken into account when scheduling new jobs - at least for production, so that the already established job control and job monitoring by tools like Automic is used.
+While its certainly easiest to schedule jobs within SAP, most corporations have external job control tools. These should be taken into account when scheduling new jobs - at least for production, so that the already established job control and job monitoring by tools like Automic is used.
 ### Resources
-[Background Processing | SAP Help Portal](https://help.sap.com/docs/ABAP_PLATFORM_NEW/b07e7195f03f438b8e7ed273099d74f3/4b26e702f89c74fee10000000a421937.html?locale=en-US)
+#website [Background Processing | SAP Help Portal](https://help.sap.com/docs/ABAP_PLATFORM_NEW/b07e7195f03f438b8e7ed273099d74f3/4b26e702f89c74fee10000000a421937.html?locale=en-US)
 Transaction Job Monitoring - SM37 
 Transaction Job Scheduling - SM36
 

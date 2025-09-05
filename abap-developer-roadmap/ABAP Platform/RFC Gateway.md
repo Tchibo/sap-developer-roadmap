@@ -9,5 +9,5 @@ The RFC gateway consists of the following processes:
         The gateway monitor is used for analysis and administration of the SAP Gateway. You can monitor the gateway with transaction SMGW.
 
 ### Resources
-[RFC Gateway | SAP Help Portal](https://help.sap.com/docs/ABAP_PLATFORM_NEW/fbaae893ab3c486fb58bc18cfc01a543/48ace6623b1e35bae10000000a42189d.html?locale=en-US)
+#website [RFC Gateway | SAP Help Portal](https://help.sap.com/docs/ABAP_PLATFORM_NEW/fbaae893ab3c486fb58bc18cfc01a543/48ace6623b1e35bae10000000a42189d.html?locale=en-US)
 Transaction - SMGW

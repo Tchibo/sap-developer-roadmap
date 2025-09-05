@@ -7,5 +7,5 @@ It performs the following tasks in the ABAP system:
 
 When an instance is started, the dispatcher process reports its services to the message server. If the message server fails, it must be restarted as quickly as possible to ensure trouble-free operation.
 #### Resources
-[SAP Message Server | SAP Help Portal](https://help.sap.com/docs/ABAP_PLATFORM_NEW/77b3972f873044acb3a70258f3984c64/47c2e77bb8fd3020e10000000a42189d.html?locale=en-US)
+#website [SAP Message Server | SAP Help Portal](https://help.sap.com/docs/ABAP_PLATFORM_NEW/77b3972f873044acb3a70258f3984c64/47c2e77bb8fd3020e10000000a42189d.html?locale=en-US)
 Transaction - SMLG (Load Distribution / Logon Groups)

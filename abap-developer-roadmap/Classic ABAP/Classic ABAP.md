@@ -1,8 +1,5 @@
 #Basic 
 
-> [!Anmerkung]
-> Ganz nach oben schieben als Einstieg in die Roadmap.
-
 ABAP (Advanced Business Application Programming) is a high-level programming language created by SAP for developing enterprise application software within the SAP ecosystem. It is primarily used for building custom reports, interfaces, enhancements, forms, and workflows in SAP systems.
 
 ABAP remains essential for customizing SAP solutions, supporting businesses in tailoring their SAP environments to meet specific operational requirements. Understanding ABAP's capabilities is crucial for unleashing the full potential of SAP applications and driving innovation in enterprise systems.

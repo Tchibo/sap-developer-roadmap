@@ -1,4 +1,4 @@
-ABAP SQL (formerly known as Open SQL) is a specialized SQL variant designed for ABAP programming. Its main goal is to streamline database interactions from ABAP application servers while providing **database independence**.
+ABAP SQL (formerly known as Open SQL) is a specialized SQL variant designed for ABAP programming. Its main goal is to streamline database interactions from ABAP application servers.
 
 ```SQL
 SELECT * FROM I_Product
@@ -7,7 +7,7 @@ ORDER BY Product ASCENDING
 INTO TABLE @DATA(lt_product).
 ```
 
-ABAP SQL can only interact with database objects that have corresponding ABAP representations. For SAP HANA-specific objects like calculation views, accessibility must be established through AMDP (ABAP Managed Database Procedures) and CDS table functions.
+ABAP SQL can only interact with database objects that have corresponding ABAP representations. This includes database tables and views, CDS objects as well as internal tables (table variables in a program). For SAP HANA-specific objects like calculation views, accessibility must be established through AMDP (ABAP Managed Database Procedures) and CDS table functions.
 
 ABAP SQL supports full CUD (Create, Update, Delete) functionality. This subset of ABAP SQL commands is called Data Manipulation Language (DML).
 ```SQL

@@ -2,6 +2,8 @@
 > [!open]+ Vorschlag 1
 > For supported standard business objects, no custom outbound implementation is required because SAP provides it. DRF customizing is performed in the source system via transaction DRFOUT.
 
+- [ ] Ich hadere ein bisschen damit Master data mit SAP Standarddaten gleichzusetzen. 
+- [ ] Customizing würde ich hier oben rausnehmen. Unten ist es gut erwähnt.
 The Data Replication Framework (DRF) provides the ability to replicate master data as well as  customizing from one SAP system to another. The replication can either be done as full replication or as delta replication which is then based on change data capture methods within SAP.
 
 DRF decouples the replication from the transmission method offering the possibility to use different transmission channels (e.g., IDoc, SOAP, RFC with BAPI). Also filtering can be either customized or implemented as well as other parameters like parallelization or language dependency of the distribution. 

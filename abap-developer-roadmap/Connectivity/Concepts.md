@@ -1,3 +1,4 @@
+- [ ] Nice overview. But a bit too munch. Could you integrate it with the corresponding technologies? Otherwise split it e.g. Push/Pull, Synchronous/Asynchronous, Data/Process integration, Authorization mechanisms.
 ### Push Communication
 **Push communication** is a point to point messaging pattern where the provider actively initiates and delivers information to the consumer without the recipient requesting it. One example for push communication is the distribution of assortment lists by IDoc.
 ### Pull Communication

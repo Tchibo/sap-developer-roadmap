@@ -1,6 +1,6 @@
-Destinations are the construct where endpoints as well as authentication information are stored or referenced.
+Destinations are the construct where endpoints as well as authentication information are stored or referenced. Typically this is done via transaction SM59, which is widely used within SAP.
+The following destination types can be administered here
 
-The following destination types can be administered 
 - HTTP Destinations 
 - RFC / ABAP Destinations
 - registered Server Programs

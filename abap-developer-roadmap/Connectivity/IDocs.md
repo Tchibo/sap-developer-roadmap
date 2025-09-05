@@ -8,7 +8,7 @@ There are various ways of transmitting IDocs to a destination, such as tRFC, via
 IDocs provide the possibility to decouple the creation or consumption of  data within SAP from receiving / sending the data and should be used therefore used only in such use cases.
 ### Ressources
 
-Introduction, Administration & Development of IDocs [IDoc Interface/ALE | SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/8f3819b0c24149b5959ab31070b64058/4ab074b6aa3a1997e10000000a421937.html?locale=en-US)
+#website Introduction, Administration & Development of IDocs [IDoc Interface/ALE | SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/8f3819b0c24149b5959ab31070b64058/4ab074b6aa3a1997e10000000a421937.html?locale=en-US)
 
 ### Example
 

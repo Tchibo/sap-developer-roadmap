@@ -8,5 +8,5 @@ All available APIs are listed here for the following areas
 - Business Object Interfaces (CRUD)
 - CDS (GET via Graph)
 ### Resources
-[Overview | SAP S/4HANA Cloud Private Edition | SAP Business Accelerator Hub](https://api.sap.com/products/SAPS4HANACloudPrivateEdition/overview)
+#website [Overview | SAP S/4HANA Cloud Private Edition | SAP Business Accelerator Hub](https://api.sap.com/products/SAPS4HANACloudPrivateEdition/overview)
 

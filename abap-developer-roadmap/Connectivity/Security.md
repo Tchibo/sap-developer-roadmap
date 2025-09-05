@@ -1,4 +1,3 @@
-- [ ] Hab hier Functional User und PP nach unten geschoben--- ?
 ### Authentication
 **Authentication** is the process of verifying the identity in order to grant access to a certain resource. 
 

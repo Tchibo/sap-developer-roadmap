@@ -1,5 +1,6 @@
 > [!todo] More RAP technical details
 >  - [ ] In addition to the semantic description of a BO add some RAP technical detail about how a BO is implemented, i.e. view entity composition, entity projection with provider contract, behaviour definition and projection and behaviour implementation
+> 	 - [ ] I'd like to stick to the business concept here. I go into more detail in other articles. 
 
 A Business Object (BO) is a hierarchical, structured representation of a real-world business entity that combines related data and operations within a specific business context. It contains both data and logic for particular business cases, including validations and BO-specific actions required for enterprise application development.
 

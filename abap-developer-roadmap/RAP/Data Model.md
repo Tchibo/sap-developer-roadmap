@@ -11,6 +11,7 @@ The RAP data model is built on the CDS data model and consists of several layers
 
 > [!todo] Service definition and service binding as separate subtopics
 > - [ ] Service definition and service binding deserve to be separate sub-topics as the mention here is short compared to the role the play in the RAP repository object stack.
+> 	- [ ] Yes, you got it. 😄 Added Service Definition and Binding
 
 A RAP business object may include multiple entities (root and child entities) organized in a hierarchical structure. This structure is exposed through a service definition and service binding that specifies the technology (OData V2, V4).
 ## Resources

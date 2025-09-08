@@ -18,6 +18,12 @@ Annotations can either target a single field (e.g. adding a label or adding a va
 @Search.searchable: true
 define view entity C_Customer as select from I_Customer {
 
+	@UI.facet: [ {
+		label: 'Customer Details',
+		type: #FIELDGROUP_REFERENCE,
+		targetQualifier: 'customer_details'
+	} ]
+	
 	@EndUserText.label: 'Customer Name'
 	@UI.fieldGroup: [ { qualifier: 'customer_details', position: 20 }]
 	@Search.defaultSearchElement: true
@@ -30,4 +36,4 @@ key	CustomerId,
 - #website [SAP Help Portal | Develop UI-Specifics](https://help.sap.com/docs/ABAP_PLATFORM_NEW/fc4c71aa50014fd1b43721701471913d/024de050bbe544498d425d48106141e6.html?locale=en-US)
 - #website [SAP Help Portal | List of all CDS Annotations](https://help.sap.com/docs/ABAP_PLATFORM_NEW/fc4c71aa50014fd1b43721701471913d/130e02a697e14bf8b05dd6672c56250b.html?locale=en-US)
 - #website [Selection Fields](https://help.sap.com/docs/ABAP_PLATFORM_NEW/fc4c71aa50014fd1b43721701471913d/e27b082ff3b849d8adba927794ffbd4f.html?locale=en-US&q=feature+control)
-- #website [SAP Fiori Elements](https://www.sap.com/design-system/fiori-design-web/discover/frameworks/sap-fiori-elements/smart-templates?external#supported-floorplans)
+- #website [Grouping Fields | SAP Help Portal](https://help.sap.com/docs/abap-cloud/abap-rap/grouping-fields?locale=en-US)

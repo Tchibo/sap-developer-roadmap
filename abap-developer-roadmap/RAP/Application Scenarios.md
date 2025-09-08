@@ -1,11 +1,10 @@
-#Medium
-
 > [!todo] Provider contract
-> For the root view transactional or analytical or provider contract may be set, for read-only I would not hint at RAP because 'barely' could be misunderstood as 'valid nonetheless'. 
+> - [ ] For the root view transactional or analytical or provider contract may be set, for read-only I would not hint at RAP because 'barely' could be misunderstood as 'valid nonetheless'. 
+> 	- [ ] Rephrased.
 
 The RAP framework can be used for different scenarios and constellations:
 
-- **Read-only application**: This is barely a RAP case, as it only requires CDS objects and a service definition and service binding. 
+- **Read-only application** do not require any RAP artifacts and are solely based on CDS objects, a service definition and service binding. 
 - **Transactional applications**: In an application with CRUD operations, RAP's managed features are most helpful. 
 - **UI application**: With RAP, a UI can be declared by annotations only.
 - **Web service**: When no UI is needed, RAP applications can be accessed as web service (e.g. OData V4).

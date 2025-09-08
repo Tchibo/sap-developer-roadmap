@@ -1,5 +1,3 @@
-#Advanced
-
 A RAP business object can raise entity events to signal state changes (for example, “Order created” or “Product briefing finished”). Events are declared in the behavior definition and are raised in the behavior implementation with `RAISE ENTITY EVENT` after the changes are committed (in the additional save sequence).
 
 Events can be consumed **locally** or **remotely**. Local consumption uses ABAP Objects event handler classes. Remote consumption uses ABAP Push Channels (APC) to deliver events over WebSocket directly to consumers or via a broker such as SAP Event Mesh or SAP Advanced Event Mesh.

@@ -1,5 +1,3 @@
-#Advanced 
-
 > [!todo] Title of subtopic 'UI rendering' rather?
 > Providing a UI for projected BO behaviours is important and hence needs more detail. Mention metadata extension and the importance of @UI annotations to control the Fiori Elements runtime and OData exposure in the service binding. And the fact that at Tchibo Fiori UIs are always deployed to the central BTP Launchpad using SAP Build Code, never to the On-Premise Frontend Server. 
 

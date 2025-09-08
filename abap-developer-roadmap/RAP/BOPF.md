@@ -1,5 +1,3 @@
-#Advanced 
-
 > [!todo] I wonder whether BOPF should be a subtopic
 > Explaining BOPF as the precursor for RAP and the modelling patterns it added might be worth a shorter text without io_modify detail. Or even include this in subtopic 'Business Objects' and drop BOPF alltogether.
 

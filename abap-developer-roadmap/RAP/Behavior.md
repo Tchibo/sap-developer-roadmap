@@ -1,12 +1,11 @@
-#Basic 
-
 > [!todo] Behaviour definition scope
-> Other than 'permitted operations' do mention operations including validation, determinations, authorization control, feature control, draft handling etc. 
+> - [ ] Other than 'permitted operations' do mention operations including validation, determinations, authorization control, feature control, draft handling etc. 
+> 	- [ ] Explained in BDL.
 
 Core Data Services (CDS) view entities provide only read access to data. To enable transactional capabilities, CDS entities are combined with two additional file types. A complete RAP entity consists of three development objects:
 
 1. The **CDS entity** defines the field list, relationships to other views, and entity type (root or child).
-2. The **behavior definition** specifies which operations are permitted on the entity.
+2. The **behavior definition** specifies the behavior provided for the entity.
 3. The **behavior implementation** contains the actual behavior logic through an ABAP behavior pool with local classes specific to the RAP business object.
 
 ## Resources

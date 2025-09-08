@@ -1,5 +1,3 @@
-#Advanced 
-
 > [!todo] When a BO cannot be modified...
 > Better mention that extensibility comes into play with SAP standard BOs to change their underlying data model or behaviour **as they should never be modified** or in the case of custom BOs where extension logic should remain separate.
 

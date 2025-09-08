@@ -1,5 +1,3 @@
-#Medium 
-
 > [!todo] Rather just mention under UI Annotations?
 > Facets as one of the @UI annotations seems to get too much attention compared to the others by making it a separate article. Perhaps just mention under 'UI Annotations'
 

@@ -3,7 +3,7 @@ SAP Build Code represents a significant advancement in the SAP development lands
 
 SAP Build Code is a cloud product and part of the BTP (Business Technology Platform). One of the advantages is that the environment is maintained by SAP, which ensures that all functions are up to date. A disadvantage, however, is that you cannot proceed with hints or tips as usual in the event of problems. Instead, you have to wait for SAP to release updates to fix these problems.
 
-Booster supports you in setting up and creating projects. It is a form-based input that guides you through the individual steps. It supports the development, extension and deployment of full-stack applications, the creation of responsive, interactive web UIs, the creation of server-side applications and the customisation, deployment and management of your personalised iOS and Android apps in the cloud.
+Booster supports you in setting up and creating projects. It is a form-based input that guides you through the individual steps. It supports the development, extension and deployment of full-stack applications, the creation of responsive, interactive web UIs, the creation of server-side applications and the customization, deployment and management of your personalized iOS and Android apps in the cloud.
 
 Joule helps you with the development of CAP and SAP Fiori. It generates complete CAP projects from prompts (CDS models, services, logic, tests, security) as well as SAP Fiori elements UIs with appropriate annotations. It also supports integrations via Destinations and the SAP Cloud SDK, helps with troubleshooting, and supports creating documentation and CI/CD artifacts in line with best practices.
 # Resources

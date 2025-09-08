@@ -1,8 +1,3 @@
-> [!todo] Fiori Elements 'List Report and Object Page'
-> - [ ] The Fiori Elements 'List Report and Object Page' is one of 5 Fiori Elements Floorplans (the others are Worklist, Analytical Listpage, Overview Page, Object Page) .
-> 	- [ ] Are they all supported? I couldn't find any reliable information about it. And I remember that your were quite unsatisfied with you test of the overview page...?
-> 
-
 A RAP-based Fiori UI usually consists of a list page (that contains a filter bar and a list of entries) and one or more object pages, that show the details of certain data entity.
 In RAP, the **Fiori Elements** UI is generated based on **CDS UI annotations** in the CDS entities. Annotations are typically defined in the metadata extension of a projection view. 
 Annotations can either target a single field (e.g. adding a label or adding a value help) or they can influence a whole entity (e.g. creating a UI field group or enabling free text search).

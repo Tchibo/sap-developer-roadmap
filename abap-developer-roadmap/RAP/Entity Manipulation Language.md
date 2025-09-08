@@ -5,9 +5,6 @@ MODIFY ENTITIES OF R_SalesOrderTP
 	REPORTED FINAL(ls_reported) FAILED FINAL(ls_failed).
 ```
 
-> [!todo] Derived types
-> - [x] Do mention the term 'Derived types' and refer to the unterlying CDS entity. 
-> 	- [x] Added.
 ##### TYPES
 RAP provides ABAP types for operations (read, create, update, delete) and message handling (reported, failed). These types are derived from the underlying CDS entities. They contain the entities’ fields as well as generated RAP structures (for example, `%key` , which contains all key fields) to aid RAP operations.
 Derived types can be defined in pool class definitions for reuse and as method parameters to modularize code.
@@ -26,10 +23,6 @@ APPEND VALUE #(  %msg =
 						   severity = if_abap_behv_message=>severity-error 
 					      ) ) TO reported-Order.
 ```
-
-> [!todo] Source code snippet
-> - [ ] A source code snippet showing a message with context recorded in reported and the entity flagged as failed might be nice. 
-> 	- [ ] Not that easy, because for Measure it is based on our custom implementation. Tried to find a workaround. But its not ideal.
 
 #### Resources
 - #website [Entity Manipulation Language (EML) | SAP Help Portal](https://help.sap.com/docs/ABAP_PLATFORM_NEW/fc4c71aa50014fd1b43721701471913d/af7782de6b9140e29a24eae607bf4138.html?locale=en-US)

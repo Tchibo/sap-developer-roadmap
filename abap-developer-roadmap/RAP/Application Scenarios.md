@@ -1,7 +1,3 @@
-> [!todo] Provider contract
-> - [ ] For the root view transactional or analytical or provider contract may be set, for read-only I would not hint at RAP because 'barely' could be misunderstood as 'valid nonetheless'. 
-> 	- [ ] Rephrased.
-
 The RAP framework can be used for different scenarios and constellations:
 
 - **Read-only application** do not require any RAP artifacts and are solely based on CDS objects, a service definition and service binding. 

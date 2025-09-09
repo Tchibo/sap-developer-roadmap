@@ -1,9 +1,13 @@
 #Basic 
-Code quality is essential for ABAP developers: software should not only work but also remain efficient, maintainable, and secure. The foundation is clear guidelines such as SAP policies, Clean ABAP, and internal standards (e.g., naming conventions and best practices). In the SAP context, S/4HANA readiness, upgradeability, HANA-optimized SQL/CDS access, and security are key.
+Code quality is essential for ABAP developers: software should not only work but also be efficient, maintainable, and secure. The foundation is clear guidelines such as SAP policies, Clean ABAP, and internal standards (e.g., naming conventions and best practices). In the SAP context, S/4HANA readiness, upgradeability, HANA-optimized SQL/CDS access, and security are key.
 
-Automated checks increase reliability, consistency, and speed, reduce routine errors, and shift reviews from style issues to business logic. The ABAP Test Cockpit enforces guidelines and serves as a central quality gate for transports. ABAP Cleaner automatically cleans up code, formats it, and updates it to modern syntax—without changing the logic. It standardizes indentation and line breaks, replaces outdated constructs (MOVE, CALL METHOD) with modern alternatives (assignment, NEW, string templates), and applies clean code simplifications.
+Automated checks increase reliability, consistency, and speed, reduce routine errors, and shift reviews from style issues to business logic. The ABAP Test Cockpit (ATC) enforces guidelines and serves as a central quality gate for transports. ABAP Cleaner automatically cleans up code, formats it, and updates it to modern syntax—without changing the logic. It standardizes indentation and line breaks, replaces outdated constructs (MOVE, CALL METHOD) with modern alternatives (assignment, NEW, string templates), and applies clean code simplifications.
 
 Good documentation explains functionality and architecture decisions, eases maintenance, onboarding, and debugging, supports audits, and aligns with business goals. In long-lived SAP landscapes, system-native documentation is recommended: ABAP Doc in the code and ABAP Knowledge Transfer Documents as versioned repository artifacts directly in the SAP system.
 # Resources
 #Article [Best Practices: Code quality for ABAP development - SAP Community](https://community.sap.com/t5/technology-blog-posts-by-sap/best-practices-code-quality-for-abap-development/ba-p/13423041)
+
+> [!todo] Further reading in english
+> Please provide the link to the english language version
+
 #Article [Clean Code: Wartbar, Lesbar und Testbar - SAP Community](https://community.sap.com/t5/technology-blog-posts-by-sap/clean-code-wartbar-lesbar-und-testbar/ba-p/13554815)

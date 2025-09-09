@@ -1,6 +1,13 @@
 #Intermediate 
 In SAP, an enqueue lock is a mechanism that prevents multiple users or processes from changing the same data at the same time. It ensures data consistency by “locking” a specific record or table entry while one user is editing it. Key points:
 
+> [!NOTE] Comment
+> - [ ] "record or table entry" - isn't that the same thing?
+> - [ ] Wir haben einen separaten Enqueue Server? Spannend
+> - [ ] Ein kurzes Codebeispiel wäre schön.
+> - [ ] Willst du noch eine Empfehlung geben, wann man das benutzen oder nicht benutzen sollte? ( In Z-Coding)
+
+
 • Lock Objects: Defined in the Data Dictionary, they specify which fields (for example, a customer number or purchase order) will be locked.  
 • Enqueue Server: A central SAP work process that manages all locks. When a user requests a lock, the enqueue server grants it if the data isn’t already locked; otherwise, the user must wait.  
 • Lock Modes: Typically either exclusive (no one else can read or write) or shared (others can read but not write).  

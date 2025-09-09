@@ -1,6 +1,10 @@
 #Advanced 
 The controlled SAP LUW enhances the standard SAP LUW concept in both ABAP Cloud and classic ABAP by introducing check mechanisms to detect transactional contract violations and ensure consistency.
 
+> [!NOTE] Comment
+> - [ ] Wie/wo genau stellt man denn ein, ob man die normale LUW oder die controlled LUW haben will? Oder muss man dazu `CL_ABAP_TX=>modify()` and `CL_ABAP_TX=>save()`  verwenden?
+
+
 **Key Features:**
 - Defines which ABAP statements are allowed/forbidden in specific transactional phases
 - Detects violations that result in runtime errors or logging

@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://www.tchibo.com/"><img src="https://www.tchibo.com/media/pages/de/de/9914b45c48-1713344208/tchibo_logo-hor_gold-light_srgb.svg" height="50"></a>
   <h1 align="center">SAP Developer Roadmap</h1>
-  <p align="center">Guidance for sap development competencies in ABAP, Cloud, Integration, UX and HANA</p>
+  <p align="center">Guidance for SAP development competencies in ABAP, Cloud, Integration, UX and HANA</p>
 </p>
 
 <br>

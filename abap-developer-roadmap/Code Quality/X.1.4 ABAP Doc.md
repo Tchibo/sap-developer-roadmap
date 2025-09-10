@@ -30,3 +30,4 @@ The ABAP Doc is used for the element info (F2) or for auto-completion in Eclipse
 
 #website [ABAP Doc - ABAP-Schlüsselwortdokumentation](https://help.sap.com/doc/abapdocu_750_index_htm/7.50/de-de/abendoccomment.htm)
 #Article [ABAP Doc - SAP Community](https://community.sap.com/t5/application-development-and-automation-blog-posts/abap-doc/ba-p/13223459)
+#course [Documenting ABAP Code](https://learning.sap.com/learning-journeys/acquire-core-abap-skills/documenting-abap-code_ad565c7e-6ac5-4a49-95e2-e4c33268dac6)

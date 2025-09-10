@@ -3,8 +3,55 @@ Clean ABAP is a practical guide that strengthens readability, simplicity, and te
 
 Clean ABAP is a voluntary, community-driven style and design guide at the code level (readability, testability, naming, small methods, exceptions instead of SY-SUBRC). SAP guidelines are product- and release-bound, partly mandatory rules at the architecture and compliance level (Clean Core, extensibility/RAP, security, performance, released APIs).
 
-> [!todo] Provide an example for better illustration
-> Provide an example of a Clean ABAP rule to give the reader a better understanding for what aspects of ABAP are affected by it. 
+# Examples 
+
+Prefer CASE over ELSEIF for multiple mutually exclusive alternatives because it improves clarity and readability.
+
+Example:
+```abap
+CASE type.
+  WHEN type-some_type.
+    " ...
+  WHEN type-some_other_type.
+    " ...
+  WHEN OTHERS.
+    RAISE EXCEPTION NEW /clean/unknown_type_failure( ).
+ENDCASE.
+```
+
+Anti-pattern:
+```abap
+IF type = type-some_type.
+  " ...
+ELSEIF type = type-some_other_type.
+  " ...
+ELSE.
+  RAISE EXCEPTION NEW /dirty/unknown_type_failure( ).
+ENDIF.
+```
+
+
+Use methods instead of comment blocks to structure code into meaningful steps; this clarifies intent, structure, and dependencies and avoids carry-over errors.
+
+Example:
+```abap
+DATA(statement) = build_statement( ).
+DATA(data)      = execute_statement( statement ).
+```
+
+Anti-pattern:
+```abap
+" -----------------
+" Build statement
+" -----------------
+DATA statement TYPE string.
+statement = |SELECT * FROM d_document_roots|.
+" -----------------
+" Execute statement
+" -----------------
+DATA(result_set) = adbc->execute_sql_query( statement ).
+result_set->next_package( IMPORTING data = data ).
+```
 
 # Resources
 

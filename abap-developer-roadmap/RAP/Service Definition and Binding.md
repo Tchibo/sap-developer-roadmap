@@ -1,3 +1,5 @@
+#Intermediate #Topic10
+
 A service definition contains all CDS entities (projections) that are required for a certain use case (for example an app 'Manage Sales Orders'). It can contain a hierarchical business object as well as non-transactional CDS entities.
 The service binding takes the service definition and connects it to a specific service type. This could be OData V2 or V4, with or without a user interface. Other service types may be supported for certain use cases.
 

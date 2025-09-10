@@ -1,3 +1,5 @@
+#Intermediate #Topic5
+
 Lock objects secure a database table during data modification by a program. This prevents inconsistencies that would arise if multiple users or programs attempted to alter the same entry simultaneously.
 Locks are synchronized between application servers of the same system. They can also be used to easily prevent simultaneous runs of background jobs. Locks are requested explicitly in code and can be released manually, otherwise they are released at the end of the transaction.
 # Optimistic Locks

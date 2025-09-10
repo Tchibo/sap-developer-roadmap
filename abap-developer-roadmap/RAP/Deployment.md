@@ -1,3 +1,5 @@
+#Advanced #Topic11
+
 In order to deploy a RAP application and add it to a central BTP Fiori launchpad, it requires a **Fiori Elements** application as a shell. The Fiori Elements project may be completely empty and only facilitate UI based on the RAP application. But it can also be used to extend the RAP application with Fiori features.
 
 ## Resources

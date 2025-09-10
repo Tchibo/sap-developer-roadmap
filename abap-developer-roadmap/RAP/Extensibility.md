@@ -1,3 +1,5 @@
+#Advanced #Topic12
+
 RAP extensibility allows creating lifecycle-stable extensions for RAP business objects (BO). Extensibility is used when a BO should not be modified (like **SAP standard BO**s) or when extension logic should remain separate (for temporary or specialized use cases).
 
 RAP BOs can be extended in terms of their data model and behavior. Extensions can be done on each level (database persistence, interface entity, projection, service definition).

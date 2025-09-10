@@ -1,3 +1,5 @@
+#Intermediate #Topic6
+
 The Behavior Definition Language (BDL) in SAP’s RESTful Application Programming Model defines the runtime behavior of business objects declaratively. Any operation declared in BDL must also be implemented as a method in the associated ABAP behavior class pool. A single BDL file defines a whole business object, including its root entity and all child entities.
 #### Types of Behavior
 RAP entities support different operation types:

@@ -3,6 +3,12 @@ An **IDoc (Intermediate Document)** is a proprietary standardized data format 
 
 The data provision and transmission within the source system is decoupled.  The transfer of the 
 data is done asynchronously by a push request which can be repeated in case of unsuccessful data sent. 
+### Key Concepts:
+
+- **Structure**: An Idoc consists of a control record, data records, and status records. Each part plays a crucial role in managing information flows—containing metadata, the actual data, and processing status respectively.
+- **Types**: IDocs are categorized as Basic and Extended Idocs. Basic Idocs handle standard processes, whereas Extended Idocs accommodate custom needs by adding additional fields.
+- **Processing**: IDocs operate through a process called ALE (Application Link Enabling), which manages distribution, replication, and synchronization of data across systems.
+- **Status & Monitoring**: IDocs have specific statuses like 'created', 'ready for dispatch', 'success', or 'error', allowing users to track their journey and troubleshoot problems.
 
 It consists of a control record and several data and status records. The control record contains details of the dispatch (e.g. type & recipient), status records the status of the processing within SAP and the data contains the actual payload of the transmission. See also the example at the bottom.
 ### Usage

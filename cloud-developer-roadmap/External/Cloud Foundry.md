@@ -7,6 +7,9 @@ links:
 source:
 aliases:
 ---
+> [!toDo] Put the various BTP 'runtime' into perspective for CAP
+> Cloud Foundry or Kyma are the preferred runtimes of CAP, ABAP Environment is preferred runtime for the ABAP RESTful application programming model (and hence gets no further mention here). Refer to how Cloud Foundry supports microservices which are the foundation of CAP apps.
+
 Cloud Foundry is an open source platform as a service that enables developers to [^1]deploy polyglot cloud applications using languages like [[Java]], [[Node.js]], [[Python]], [[Ruby]], [[Go]] and more. It abstracts infrastructure management via BOSH and buildpacks or Docker images and connects to external services through the Open Service Broker API. It functions across multiple cloud providers such as [[AWS]], [[Azure]], [[Google Cloud]] and [[SAP BTP]], offering high availability, elastic scaling and standardized application lifecycle operations without modification of code.
 
 **Sources**

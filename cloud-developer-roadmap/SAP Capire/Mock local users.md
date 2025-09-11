@@ -10,6 +10,9 @@ links:
 source:
 aliases:
 ---
+> [!todo] 'SAP Capire' is just the universe of documentation about CAP
+> ...so I would speak about 'configuration in CAP...'.
+
 Developers can mock users in the local [[CDS]] configuration in [[SAP Capire]] to simulate different authentication scenarios. Mock users can be assigned usernames, passwords, roles, and attributes, which are then available in the application logic for authorization checks. This is valuable for testing role-based access controls and verifying that features are accessible only to users with the correct permissions.
 
 Using mock users allows developers to efficiently validate application security during local development without complex authentication setups.

@@ -9,6 +9,9 @@ aliases:
   - cds plugin
   - CDS Plugin
 ---
+> [!todo] Outline the difference between CDS Plugin and what happens with the 'cds add' command
+> Do clarify whether there is a difference between a CDS plugin with its cds-plugin.js file as outlined here and running the 'cds --add <feature>' command. Or if it is in fact the same.
+
 Plugins are a proven software concept: small programs that attach (“plug in”) to enhance existing functionality. Within the [[SAP Capire]] Framework, CDS Plugins empower developers to extend [[SAP Capire|CAP]]’s standard workflows or introduce new features such as file attachment handling even when built-in support is not available.
 
 The [[SAP Capire|CAP]] ecosystem already offers a rich collection of CDS plugins maintained by SAP and the community, covering functionalities like file attachments, [[WebSocket]], [[GraphQL]] adapters, [[audit logging]], [[change tracking]] and many more...

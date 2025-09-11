@@ -9,6 +9,9 @@ aliases:
 > [!IMPORTANT] Disclaimer  
 > This guide focuses on building an MTA-based project.
 
+> [!toDo] Refer to UI features in SAP Build Code to trigger build
+> For developers less keen on using the terminal ensure that the build action is also available though the context menu of the mta.yaml in SAP Build Code.
+
 Use `cds build` to generate deployment artifacts in the `gen` directory. The `--clean` flag removes outdated files before the build.
 
 User interfaces in the `app` folder are built with `npm run build`, creating a `dist` folder with the deployable UI.

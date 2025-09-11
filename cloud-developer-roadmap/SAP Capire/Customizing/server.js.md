@@ -13,6 +13,10 @@ In the [[SAP Capire]], the backend (when based on [[Node.js]]) is built upon [[E
 Within the context of [[SAP Capire]], the `server.js` file is highly customizable. Developers can extend it to add their own [[middleware]], set up custom logging, or adapt the server's behavior to suit specific requirements.
 
 The standard implementation of the `server.js` file, as described in the [[SAP Capire]] documentation, looks like this:
+
+> [!toDo] Shorter is sweeter
+> Considering that this needs to be read through the roadmap.sh UI this requires condensing and focus on just the key lines of code.
+
 ```js
 const express = require('express')
 const cds = require('./lib')

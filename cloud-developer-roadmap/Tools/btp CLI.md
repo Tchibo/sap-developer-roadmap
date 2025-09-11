@@ -6,6 +6,11 @@ links:
 source:
 aliases: []
 ---
+
+> [!todo] btp CLI beyond the scope of a CAP developer
+> I am of the opinion that the btp CLI is beyond the scope of work of a CAP developer. As the CAP developer will typically also lack authorization for most of the administrative actions on BTP subaccounts.
+
+
 *Content*
 
 **Summary**

@@ -13,7 +13,7 @@ aliases:
 > You can learn more about Git and GitHub on [Roadmap.sh](https://roadmap.sh/git-github)
 # What is Git?
 
-**Git** is a distributed version control system created by Linus Torvalds to manage the development of the Linux kernel. It allows developers to track changes in source code, collaborate in teams, manage branches for new features or bug fixes, and revert to earlier versions when needed.
+**Git** is a distributed version control system initially created by Linus Torvalds to manage the development of the Linux kernel but has since been widely adopted by developers around the world. It allows developers to track changes in source code, collaborate in teams, manage branches for new features or bug fixes, and revert to earlier versions when needed.
 
 With Git, you can:
 - Track every change to files (versioning)
@@ -23,6 +23,8 @@ With Git, you can:
 - Collaborate with others via remote repositories (e.g., GitHub, GitLab, Bitbucket)
 
 ---
+
+> [!toDo] Format the 'learning resources' for easier copy and paste so that Sebastian can port them to roadmap.sh without trouble
 
 # Learning Resources
 

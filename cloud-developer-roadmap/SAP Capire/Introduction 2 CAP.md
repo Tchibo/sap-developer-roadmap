@@ -16,6 +16,9 @@ The framework is centered around a domain-driven, declarative development style.
 **Interfaces with SAP RAP**
 [[SAP Capire]] and [[RAP]] share similar architectural patterns, though they use different technologies ([[Node.js]]/[[Java]] vs. [[ABAP]]). Both use [[CDS]] for data modeling and integrate with [[Fiori Elements]] for the UI.
 
+> [!todo] Similarities with RAP are not the reason
+> CAP came about first and RAP adopted its ideas in a slightly more elaborate / prescriptive way. So the similarity with RAP is consequential, not causal.
+
 **Summary**
 The **SAP [[SAP Capire|Cloud Application Programming Model]]** offers a structured approach for developing cloud-native applications. Its focus on declarative modeling and automatic service exposure allows developers to concentrate on the business domain. The similarities with [[SAP RAP]] make it a strong foundation for modern SAP development on the [[SAP BTP]].
 

@@ -9,6 +9,9 @@ aliases:
   - drafts
   - draft
 ---
+> [!toDo] Suggest to add this to the domain modelling topic
+> As draft enablement leads to draft entities in the data model with their own persistence I would suggest to add 'Drafts' to the domain modelling topic.
+
 In [[SAP Capire]], Draft Handling allows users to work on data in an intermediate state before final saving. This is useful for complex transactional data entry that requires intermediate saves and validations.
 
 Drafts are implemented using the `@odata.draft.enabled` annotation, which makes [[SAP Capire]] automatically generate the necessary infrastructure, including a shadow draft table and actions like `EDIT`, `ACTIVATE`, and `CANCEL`.

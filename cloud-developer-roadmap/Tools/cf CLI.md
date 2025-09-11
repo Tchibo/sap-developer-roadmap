@@ -21,6 +21,9 @@ The [[Cloud Foundry]] [[CLI]] (`cf` [[CLI]]) is a command-line interface for int
 
 In SAP environments, particularly on the [[SAP BTP]], the `cf` [[CLI]] is used to manage applications and services within SAP's [[Cloud Foundry]] infrastructure.
 
+> [!todo] Preinstalled in SAP Build Code
+> Do mention the fact that it comes preinstalled when using SAP Build Code. Separate installation required when working locally in VS Code only.
+
 The `cf` [[CLI]] can be installed on [[Windows]], [[macOS]], and [[Linux]].
 
 **Summary**

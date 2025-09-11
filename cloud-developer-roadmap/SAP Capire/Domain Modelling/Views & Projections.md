@@ -14,6 +14,9 @@ aliases:
   - projection
   - projections
 ---
+> [!toDo] Mention how projections are defined in the service.cds
+> For more tight integration with the actual CAP implementation mention that projections are defined in the service.cds file in the application logic folder 'srv' (if as a developer one has stuck to CAP convention)
+
 In [[SAP Capire]], [[Views & Projections|projections]] and [[Views & Projections|views]] are powerful modeling tools that allow developers to shape how data is presented and consumed.
 
 **Projections** are used to define service-specific interfaces on top of core domain models. By creating projections, you can expose only selected fields and aspects of an entity to a service, ensuring that internal data structures remain encapsulated and that only the necessary data is available to [[API]]s or consumers. Projections enable a clear separation between internal domain models and external service contracts, which is important for maintainability and security.

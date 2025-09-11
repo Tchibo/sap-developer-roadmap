@@ -10,6 +10,9 @@ aliases:
 > [!quote] *Cloud MTA Build Tool*
 > The Cloud MTA Build Tool is a standalone command-line tool that builds a deployment-ready multitarget application (MTA) archive `.mtar` file from the artifacts of an MTA project.
 
+> [!todo] Preinstalled in SAP Build Code
+> Do mention the fact that it comes preinstalled when using SAP Build Code. Separate installation required when working locally in VS Code only.
+
 The MBT CLI ([[Multi-Target Application]] Build Tool CLI) is a command-line interface for building and packaging MTA archives, which are essential for deploying cloud applications to the [[SAP BTP]].
 
 **Key Features:**

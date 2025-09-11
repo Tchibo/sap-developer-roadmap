@@ -11,6 +11,9 @@ links:
 source:
 aliases:
 ---
+> [!toDo] Not the CAP language choice at Tchibo at the moment
+> Considering that SAPUI5 is a JavaScript/ TypeScript runtime and already requires ABAP developers to be proficient in it for SAP Fiori extensions I would recommend against promoting CAP Java. As quality of coding comes largely by experience managing a third language (ABAP, JavaScript/ TypeScript) is not helpful. I would hence not mention it as a separate topic.
+
 **Backend Development with [[Java]]/[[Spring Boot]] in the SAP [[SAP Capire|CAP]] Framework**
 The SAP [[SAP Capire|Cloud Application Programming]] Framework also supports **[[Java]]** as a runtime, based on **[[Spring Boot]]**. The [[Java]] implementation is particularly aimed at development teams that prefer enterprise-grade solutions and the established [[Spring Boot]] ecosystem.
 

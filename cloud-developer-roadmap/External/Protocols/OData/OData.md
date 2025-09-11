@@ -5,6 +5,9 @@ tags:
 links:
 source: https://aichat.tchibo.ai/s/8dcda536-eaa1-42ef-9371-9ce51edc2263
 ---
+> [!toDo] Tchibo preference is V4
+> Do mention that new apps are to be created with the V4 Protocol version only.
+
 [OData]] (Open Data Protocol) is a standardised protocol for data exchange developed by [[Microsoft]]. It enables:
 - Standardised access** to data via HTTP/HTTPS
 - queries** with URL-based language

@@ -11,6 +11,9 @@ aliases:
 > [!WARNING] Disclaimer
 > At the time of writing, I have not yet gained hands-on experience with automated end-to-end (E2E) testing in [[SAP Capire]] projects.
 
+> [!todo] Including information unasserted by personal experience at Tchibo 
+> ... is not useful as we are sending learners on a journey in which we can provide no support. Rather than that learners must focus on topics for which asserted Tchibo best practice exists
+
 End-to-end (E2E) testing verifies the complete flow of an application from the user's perspective, ensuring that all components—frontend, backend, database, and external interfaces—work together as expected in a production-like environment. Unlike unit or integration tests, E2E tests simulate real user scenarios.
 
 A common approach is using the [[BDD]] framework **[[Cucumber]]**, which allows you to define test scenarios in human-readable `.feature` files using [[Gherkin]] syntax. Each step is mapped to a step definition in [[JavaScript]], which interacts with the application.

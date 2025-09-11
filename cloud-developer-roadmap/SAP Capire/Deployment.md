@@ -10,6 +10,9 @@ aliases:
 > [!IMPORTANT] Disclaimer
 > This post focuses on deploying an MTA archive to an SAP BTP Cloud Foundry environment.
 
+> [!toDo] First explain the concept of a 'Multi-target Application'
+> ...and the fact that its micro-services defined and required are described in the mta.yaml. That the microservices defined and required are created on the BTP runtime at time of deployment. That a BTP sub account, organization and space need to be connected at time of deployment as it identifies the Cloud Foundry runtime that the MTA should run on. That microservices of an MTA share credentials with each other through service binding. Thus creating conceptual understanding before going into the operational functioning of deployment.
+
 After generating the MTAR archive of your [[SAP Capire]] project, deploy it to the target [[SAP BTP Subaccount]] using the [[cf CLI]]. First, log in to the subaccount:
 
 ```bash

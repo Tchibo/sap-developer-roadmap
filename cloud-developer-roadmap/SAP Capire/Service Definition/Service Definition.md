@@ -7,6 +7,9 @@ links:
 source:
 aliases:
 ---
+> [!todo] View do get deployed to the database me thinks...
+> Views defined as projections on entities are in fact deployed as database artefacts. At least in the HANA Cloud service.
+
 The Service Layer in the [[SAP Capire]] Framework defines the API contracts for accessing your application's functionality and exposes the [[domain model]] through standardized interfaces.
 
 In [[SAP Capire]], services are declared using [[CDS]] service definitions, which specify which entities are exposed and what operations are allowed. The Service Layer acts as a controlled gateway between clients and your application's core business logic.

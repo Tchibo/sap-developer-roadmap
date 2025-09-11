@@ -11,6 +11,12 @@ aliases:
   - BAS
   - SAP BAS
 ---
+> [!todo] 'SAP Capire' is just the universe of documentation about CAP
+> ...so I would speak about 'and CAP.'.
+
+> [!toDo] SAP Build Code instead of SAP Business Application Studio 
+> Guess SAP found it needed to be cool as Visual Studio 'Code' and have a SAP Build 'Code'. So it's best to be cool and rename it here too.
+
 SAP Business Application Studio is a web-based IDE for SAP solutions, providing tools to build, deploy, and manage applications. It offers a cloud development environment with support for [[JavaScript]], [[TypeScript]], [[Fiori]], and [[SAP Capire]]. The environment is extensible and integrates with SAP services.
 
 Key features include the **Storyboard** for visual UI design and **[[Guided Development]]** with interactive tutorials. These tools help streamline the design process and onboard new developers.

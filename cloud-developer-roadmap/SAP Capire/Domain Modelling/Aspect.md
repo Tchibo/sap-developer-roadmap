@@ -12,6 +12,9 @@ aliases:
   - aspects
   - Aspects
 ---
+> [!todo] The meaning of 'map entity structures' needs clarification or rewording
+> Even to the initiated reader 'map entity structure' does not seem to clearly outline the benefit of using 'aspects' in domain data modeling. To me an 'aspect' defines the attributes that go with specific context, e.g. 'key definition', 'amount definition', 'text definition' etc. and as such can be reused by entities in such contexts.
+
 Aspects can be used to map entity structures, which can then be inherited when defining a new entity. [[SAP]] already provides some frequently used aspects under the namespace `sap.common`, which can be "implemented" in the data model.
 
 **Example

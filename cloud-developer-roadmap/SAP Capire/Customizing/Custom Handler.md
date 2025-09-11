@@ -10,6 +10,9 @@ aliases:
 ---
 The [[SAP Capire]] framework provides developers with the flexibility to extend standard service behavior by implementing custom business logic. This is achieved through **custom handlers**, which allow you to intercept and enhance the lifecycle of your services, such as reading, creating, updating, or deleting data.
 
+> [!toDo] There is a system to how extensions can be registered
+> It helped me at the time to understand that registration of handlers can be 'Before', 'On' or 'After' the HTTP verb action beeing performed, detailed by entity. That applies to all verbs in HTTP CRUD. It also needs to sink in that if I e.g. want to amend the result of a managed GET request I can register an 'After' handler to amend the response to the GET request. Likewise it is good to know that when you register an 'On' Handler then the managed handler is replaced. You've got most of this in the subtopic 'Node.js Custom Handler' document.
+
 Custom handlers are typically used to:
 - **Override default service behavior**
   For example, to change how data is processed during certain events.
@@ -39,7 +42,12 @@ module.exports = (srv) => {
 
 This modular, event-driven model makes it easy to implement robust, reusable business logic in [[SAP Capire]] projects.
 
+
+> [!toDo] This document is a bit long, drop the following paragraph to shorten
+> The most important message has been provided at this point in time. The next paragraph is adding detail that blurs the picture in my opinion and exceeds the length that's meaningful in roadmap.sh. 
+
 Beyond business logic, [[SAP Capire|CAP]] also allows for further extensibility:
+
 - **Custom Authentication Handlers**
   You can implement your own authentication and authorization logic using custom handlers or by registering middleware. This makes it possible to integrate with custom identity providers or enforce specialized access control rules beyond [[SAP Capire|CAP]]’s built-in authentication.
 - **Custom `server.js`:** 

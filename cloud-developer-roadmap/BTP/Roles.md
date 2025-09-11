@@ -13,6 +13,9 @@ Roles in [[SAP BTP|SAP Business Technology Platform]] are used to control access
 
 Roles are typically defined and managed in the [[SAP BTP Cockpit]], where administrators can assign them to users or groups according to business requirements.
 
+> [!toDo] Mention attributes as further way of role personalization
+> For row level authorization attributes play an important role. Might be good to mention them here so as to check authorization on sales org or company code etc. level.
+
 **Summary**  
 Roles in [[SAP BTP|SAP Business Technology Platform]] enable restriction and control of actions within applications and services by granting specific permissions to defined user groups, supporting secure and flexible access management.
 

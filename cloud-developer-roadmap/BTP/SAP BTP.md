@@ -9,7 +9,6 @@ aliases:
   - BTP
   - SAP Business Technology Platform
 ---
-
 SAP Business Technology Platform (BTP) is SAP's integrated cloud platform for building, extending, and integrating business applications. It provides a comprehensive suite of services for application development, data management, analytics, AI, and automation.
 
 BTP enables businesses to:

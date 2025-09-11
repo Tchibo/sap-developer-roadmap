@@ -11,9 +11,13 @@ links:
 source:
 aliases:
 ---
-Mocha is a flexible [[JavaScript]] test framework for [[Node.js]], supporting BDD and TDD. It provides functions like `describe` and `it` for structuring tests and allows using external assertion libraries like [[Chai]].
+
+Mocha is a flexible [[JavaScript]] test framework for [[Node.js]], supporting behaviour driven development (BDD) and test driven development (TDD). It provides functions like `describe` and `it` for structuring tests and allows using external assertion libraries like [[Chai]].
 
 For [[SAP Capire]] projects, Mocha integrates with the `@cap-js/cds-test` library. The `cds.test()` function starts a [[SAP Capire|CAP]] server within a test suite, offering utilities like `GET`, `POST`, and service access. Tests should be in a `test/` directory and use `describe` blocks for proper server management.
+
+> [!todo] Rather than giving many options
+> ...blaze the trail and decide which test framework the Tchibo CAP developer should be using. Jest only or Jest with Chai. Or Mocha with Chai?
 
 The official [[SAP Capire]] documentation lists Mocha as a supported test runner alongside [[Jest]], recommending [[Chai]] for assertions. It's crucial to initialize `cds.test()` before accessing `cds` services to prevent environment issues.
 

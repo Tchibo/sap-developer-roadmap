@@ -7,6 +7,9 @@ links:
 source:
 aliases:
 ---
+> [!todo] Provide more input to the how-to in CAP
+> In a short paragraph outline what file is added and how it is referenced in the manifest.json
+
 The standard texts of a user interface based on  [[Fiori Elements]] can be customised. The customisation can either be general for the entire application or specific for certain entities. This makes it possible, for example, to display a specific message for all business partners when confirming a business partner. To do this, a localisation file must be stored in the manifest file of the app, which overwrites the desired standard texts.
 
 **Sources**

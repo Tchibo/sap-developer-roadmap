@@ -29,6 +29,9 @@ module.exports = cds.service.impl(async function() {
 });
 ```
 
+> [!toDo] Will the 'createdAt' implemented 'After' be persisted?
+> To have the 'createdAt' attribute persisted as well, wouldn't you have to perform the database update here as well?
+
 In this example, the event handler is registered using the `after` hook for the `CREATE` event on the `Books` entity. For every book created, it sets the `createdAt` property to the current timestamp.
 
 **Summary**  

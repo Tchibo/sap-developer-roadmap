@@ -8,6 +8,9 @@ links:
 source:
 aliases:
 ---
+> [!todo] How is implicit or explicit exposure initiated in the CAP devevelopment artefacts
+> Explain the importance of the service.cds and how deploying it leads to a managed runtime for CRUD on the entities contained in the domain datamodel.
+
 Entity exposure in [[SAP Capire]] refers to the process of making data models (entities) accessible through a service, so they can be consumed via [[API]]s such as [[OData]]. There are two main approaches:
 - **Implicit exposure**
   All entities defined within a service are made available by default, without further specification.

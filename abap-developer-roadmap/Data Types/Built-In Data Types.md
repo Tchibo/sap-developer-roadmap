@@ -1,3 +1,5 @@
+#Intermediate #Topic4
+
 ABAP has built-in data types found in both its **language** and the **ABAP Dictionary**. This section covers the language data types, while those in the ABAP Dictionary are addressed separately.
 # Built-In Data Types
 Fixed predefined datatypes like `c` (character), `n` (numeric character), `i` (integer), `p` (packed decimal), and `f` (floating-point). These are mostly used for scalar values and simple fields.
@@ -18,7 +20,7 @@ DATA(itab2) = VALUE table_type(FOR <field-symbol> IN itab1
 
 # Generic Types
 
-Generic Types are commonly used in **Dynamic Programming** in **Advanced ABAP**. #todo topic dynamic programming unter "Advanced ABAP".
+Generic Types are commonly used in **Dynamic Programming** in **Advanced ABAP**.
 
 #### Links
 #website[ABAP Built-In Types](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/index.htm?file=abenbuilt_in_types_complete.htm)

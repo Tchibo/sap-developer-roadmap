@@ -1,3 +1,5 @@
+#Basic #Topic3
+
 Structured data types such as structures and tables. Structures group related fields together. Internal tables are dynamic arrays of structures or elementary types, widely used for collections of data.
 # Structures
 A Structure is an aggregation of multiple data types. It can contain elementary data types, other structures or table types.

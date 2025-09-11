@@ -1,3 +1,5 @@
+#Advanced 
+
 A cursor is a mechanism for processing large datasets by dividing them into manageable portions that can be handled sequentially. 
 
 When a cursor is created, the database executes the query but keeps the complete result set on the database side. It maintains a pointer (called a cursor) to track the current position and delivers only the requested data chunk to the application server per fetch. This approach reduces memory usage on the application server.

@@ -1,3 +1,5 @@
+#Advanced
+
 **Common Table Expressions (CTEs)** are temporary named result sets in ABAP SQL. They work like temporary views that allow you to combine multiple SELECT operations within a single ABAP SQL statement.
 
 The `WITH` statement allows you to define CTEs using the syntax `<cte_name> AS ( <cte_select_statement>)`, which can then be joined with the main SELECT statement.

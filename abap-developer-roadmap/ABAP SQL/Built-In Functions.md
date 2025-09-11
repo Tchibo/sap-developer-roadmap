@@ -1,3 +1,5 @@
+#Intermediate
+
 ABAP SQL offers a wide range of built-in functions for numeric operations, string manipulation, date and time handling, type conversions, and additional data processing tasks.
 
 Additionally, ABAP SQL provides a set of keywords like CASE or CAST to process data elements.

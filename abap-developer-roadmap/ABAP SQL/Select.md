@@ -1,3 +1,5 @@
+#Basic
+
 SELECT statements in ABAP SQL handle data retrieval with built-in capabilities for filtering, sorting, and aggregating data. This functionality is known as Data Query Language (DQL).
 Data from multiple tables can be combined using joins or ABAP CDS associations. Joins can also be performed with internal tables (table variables).
 

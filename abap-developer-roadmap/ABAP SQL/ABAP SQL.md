@@ -1,3 +1,5 @@
+#Basic
+
 ABAP SQL (formerly known as Open SQL) is a specialized SQL variant designed for ABAP programming. Its main goal is to streamline database interactions from ABAP application servers.
 
 ```SQL

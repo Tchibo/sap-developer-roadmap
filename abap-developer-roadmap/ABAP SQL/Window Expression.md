@@ -1,3 +1,5 @@
+#Advanced 
+
 Window expressions are advanced ABAP SQL functions designed for sophisticated calculations. They execute additional queries within defined subsets of the main result set - known as "windows".
 
 Each window expression consists of two main parts: a function (such as rank, sum, or average) and a window definition using `OVER ( )`. Inside the window definition, you can specify how to group your data using `PARTITION BY`or set the order for processing records with `ORDER BY`.

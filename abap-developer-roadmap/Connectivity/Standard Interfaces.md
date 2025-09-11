@@ -1,3 +1,4 @@
+#basic
 As SAP is a standard software, there is a large number of available standard interfaces that can be used to interact with SAP business objects.
 
 All available APIs are listed here for the following areas

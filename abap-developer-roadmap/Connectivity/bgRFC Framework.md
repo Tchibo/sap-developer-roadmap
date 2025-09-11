@@ -1,3 +1,4 @@
+#intermediate
 The **bgRFC Framework (Background Remote Function Call Framework)** in SAP allows remote function calls to be executed asynchronously and in the background between different SAP systems or between a SAP system and a non-SAP system.
 ### Core Features
 - Enables **asynchronous processing**, which ensures that the calling system is not blocked and can continue its operations while background processing occurs

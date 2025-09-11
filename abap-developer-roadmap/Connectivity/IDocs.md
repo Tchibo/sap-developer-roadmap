@@ -1,3 +1,4 @@
+#basic
 An **IDoc (Intermediate Document)** is a proprietary standardized data format from SAP that enables the exchange of master as well as transactional business data (e.g. article master data, orders). 
 
 The data provision and transmission within the source system is decoupled.  The transfer of the 

@@ -1,3 +1,4 @@
+#intermediate 
 ### Authentication
 **Authentication** is the process of verifying the identity in order to grant access to a certain resource. 
 

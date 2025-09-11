@@ -1,12 +1,25 @@
 #Basic 
-SAP ABAP Knowledge Transfer Documents (KTDs) are a specialized SAP technology designed for the structured documentation of ABAP development objects, particularly focusing on the newer object types introduced with the ABAP Restful Application Programming Model (RAP). These document types are a progression of ABAP Doc comments, especially for technologies and object types central to RAP.
+SAP ABAP Knowledge Transfer Documents (KTDs) are SAP repository artifacts for structured documentation of ABAP development objects, including those introduced with the ABAP RESTful Application Programming Model (RAP). KTDs are written in Markdown. They extend ABAP Doc to cover RAP-centric technologies and object types.
 
-KTDs serve the broader purpose of knowledge retention and transfer within SAP development teams, ensuring that critical architectural decisions, implementation details, and best practices are documented at the source. This facilitates onboarding, improves code maintainability, and prevents critical information loss when team members move or projects are handed over.
+KTDs capture architectural decisions, implementation details, and best practices at the source, supporting knowledge retention and transfer across teams. This streamlines onboarding, improves maintainability, and reduces the risk of information loss during staffing changes or handovers.
 
-Storing the KTDs in the ABAP repository also ensures their long-term availability: they are version-managed, transportable and part of the regular lifecycle management (Dev → Test → Prod) so that they are not lost during the project runtime or during system copies. Due to their proximity to the respective source object - as directly assigned repository artifacts - they are automatically taken into account when changes are made to the object and can be maintained together in the same working context (e.g. in ADT). This promotes consistent updates in the course of refactorings, code reviews and releases and ensures that documentation and implementation remain permanently synchronized.
+Stored in the ABAP repository, KTDs are versioned, transportable, and part of the standard Dev-Test-Prod lifecycle. Directly linked to their source objects and editable in the same tools (e.g., ADT), they are maintained alongside code changes during refactoring, reviews, and releases, keeping documentation and implementation aligned.
+
+Supported object types:
+
+- CDS Data Definitions (DDL sources; e.g., view entities and projections)
+- CDS Access Controls (DCL)
+- CDS Metadata Extensions (MDE)
+- RAP Behavior Definitions (BDEF)
+- RAP Behavior Projections (BPR)
+- Service Definitions (SRVD)
+- Service Bindings (SRVB, e.g., OData V4)
+- Event Consumption Models (ECM; AsyncAPI-based)
 # Resources
 
 #website [Knowledge Transfer Documents | SAP Help Portal](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/knowledge-transfer-documents)
 #course [Creating Knowledge Transfer Documents | SAP Help Portal](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/creating-knowledge-transfer-documents)
 #Article [ADT: Documenting ABAP Development Objects - SAP Community](https://community.sap.com/t5/technology-blog-posts-by-sap/adt-documenting-abap-development-objects/ba-p/13469608)
+#Article [Formatting Knowledge Transfer Documents Using Markdown | SAP Help Portal](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/b2f22a9fa9b543cfad70db34f7e17e7c.html?locale=en-US)
+
 

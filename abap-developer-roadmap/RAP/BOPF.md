@@ -1,3 +1,5 @@
+#Advanced #Topic14
+
 The Business Object Processing Framework (**BOPF**) is an older ABAP-based framework that is now in maintenance mode and should be avoided for new development projects. However, understanding BOPF is important because it laid the foundation for modern RAP development.
 
 BOPF's main contribution was introducing the concept of **business objects** to ABAP development. A business object in BOPF is a structured container that groups related business data together with its operations. These business objects are organized in hierarchical structures, meaning they can have parent-child relationships between different data entities.

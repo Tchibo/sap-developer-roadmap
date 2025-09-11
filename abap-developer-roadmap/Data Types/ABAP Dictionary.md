@@ -1,3 +1,5 @@
+#Basic #Topic1
+
 The ABAP Dictionary (also known as **Data Dictionary** or **DDIC**) is a central SAP tool for defining and managing data types. Data types defined here are reusable across an ABAP system but typically serve specific contexts or use cases. The Dictionary also includes reusable definitions such as **Structures** and **Table Types**.
 **Built-In Elementary Data Types** exist both within the Dictionary and directly in ABAP code. Values can convert losslessly between these, though definitions slightly differ.
 

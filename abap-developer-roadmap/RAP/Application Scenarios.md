@@ -1,3 +1,5 @@
+#Intermediate #Topic4
+
 The RAP framework can be used for different scenarios and constellations:
 
 - **Read-only application** do not require any RAP artifacts and are solely based on CDS objects, a service definition and service binding. 

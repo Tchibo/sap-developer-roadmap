@@ -1,3 +1,5 @@
+#Intermediate #Topic8
+
 SAP created Entity Manipulation Language (EML) as a SQL-like language to access RAP business objects from ABAP. EML ensures only allowed operations execute and required validations trigger. And it respects the hierarchical structure: child entities are manipulated via the root entity.
 ```
 MODIFY ENTITIES OF R_SalesOrderTP

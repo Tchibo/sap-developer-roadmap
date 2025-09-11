@@ -1,3 +1,5 @@
+#Intermediate #Topic9
+
 A RAP-based Fiori UI usually consists of a list page (that contains a filter bar and a list of entries) and one or more object pages, that show the details of certain data entity.
 In RAP, the **Fiori Elements** UI is generated based on **CDS UI annotations** in the CDS entities. Annotations are typically defined in the metadata extension of a projection view. 
 Annotations can either target a single field (e.g. adding a label or adding a value help) or they can influence a whole entity (e.g. creating a UI field group or enabling free text search).

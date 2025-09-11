@@ -6,8 +6,4 @@ Automated checks increase reliability, consistency, and speed, reduce routine er
 Good documentation explains functionality and architecture decisions, eases maintenance, onboarding, and debugging, supports audits, and aligns with business goals. In long-lived SAP landscapes, system-native documentation is recommended: ABAP Doc in the code and ABAP Knowledge Transfer Documents as versioned repository artifacts directly in the SAP system.
 # Resources
 #Article [Best Practices: Code quality for ABAP development - SAP Community](https://community.sap.com/t5/technology-blog-posts-by-sap/best-practices-code-quality-for-abap-development/ba-p/13423041)
-
-> [!todo] Further reading in english
-> Please provide the link to the english language version
-
-#Article [Clean Code: Wartbar, Lesbar und Testbar - SAP Community](https://community.sap.com/t5/technology-blog-posts-by-sap/clean-code-wartbar-lesbar-und-testbar/ba-p/13554815)
+#Article [Clean Code: Writing maintainable, readable and tes... - SAP Community](https://community.sap.com/t5/technology-blog-posts-by-sap/clean-code-writing-maintainable-readable-and-testable-code/ba-p/13556545)

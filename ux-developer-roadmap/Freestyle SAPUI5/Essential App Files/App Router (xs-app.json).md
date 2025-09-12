@@ -2,8 +2,6 @@
 
 The `xs-app.json` file is crucial for configuring access and routing within SAP Cloud Platform applications. It defines rules that manage how requests are handled and directs URLs to specified targets within the cloud environment.
 
-**Key Functions:**
-
 -  **Routes:** Specifies routes to direct application traffic to various service destinations. A typical route includes defining the source URL and the target to which requests are forwarded.
 
 ```JSON

@@ -9,6 +9,9 @@ DRF should be used in distribution scenarios, where standard business objects ne
 
 It should also be mentioned that the replication does not react to an event / change pointer at a precise point in time, but starts via a scheduled job and is therefore more suitable for integration requirements that do not require the provision of data at a precise point in time such as master data.
 ### Resources
-#website[Data Replication Framework | SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/8308e6d301d54584a33cd04a9861bc52/88e3f5577c84bc12e10000000a4450e5.html?locale=en-US)
-Replication Control - Transaction DRFOUT
-Customizing DRF - Transaction DRFIMG
+- #website[Data Replication Framework | SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/8308e6d301d54584a33cd04a9861bc52/88e3f5577c84bc12e10000000a4450e5.html?locale=en-US)
+- #Article [Overview of Data Replication Framework](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/8308e6d301d54584a33cd04a9861bc52/88e3f5577c84bc12e10000000a4450e5.html?locale=en-US)
+- #Article [Configuring Data Replication in SAP](https://help.sap.com/viewer/DRF_Config)
+- #Article [Troubleshooting Issues in Data Replication](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/685d789fde7247da9e5c87f2b7c79907/970514ae978e430db91752e07d41fc0a.html?locale=en-US)
+- #transaction Replication Control - Transaction DRFOUT
+- #transaction Customizing DRF - Transaction DRFIMG

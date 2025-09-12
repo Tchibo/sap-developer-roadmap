@@ -1,5 +1,11 @@
 #Basic 
 
+> [!TODO] Review Comment
+> - Formatierungen überarbeiten: Nach Überschriften einen Absatz ist für die Lesbarkeit schöner
+> - Überschriften wie "Key Features" lassen darauf schließen dass mit ChatGPT gearbeitet wurde, daher habe ich in meinen Texten versucht die ChatGPT antworten von der Struktur her etwas abzuändern, evtl. tut es aber auch einfach eine andere Überschrift.
+> - Das Thema OData wird sowohl in der ABAP Roadmap, als auch in dem "Freestyle" Subtopic aufgegriffen. Evtl. sollten wir hier ein zentrales Subtopic im Canvas für schaffen? Dann haben wir es nicht doppelt in der UX-Roadmap
+
+
 OData (Open Data Protocol) is a crucial component in Fiori development, functioning as a standardized protocol for creating and consuming RESTful APIs. It facilitates the integration between the frontend SAP Fiori applications and various data sources by providing a mechanism to access and manage data over HTTP.
 
 ## Key Features

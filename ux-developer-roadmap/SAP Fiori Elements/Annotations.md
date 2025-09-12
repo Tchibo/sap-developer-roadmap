@@ -1,5 +1,10 @@
 #Basic 
 
+> [!TODO] Review Comment
+> - Wortanzahl noch etwas reduzieren, im Optimalfall auf ca. 200 | Text an für sich aber gut!
+> - Eventuell noch darauf eingehen wo diese Metadaten eingesehen werden können also im Browser bspw. über den OData Service und dann `/sap/opu/odata/DMO/UI_FLIGHT_R_V2/$metadata` , Doku Link: [Verifying the OData Metadata](https://help.sap.com/docs/abap-cloud/abap-rap/verifying-odata-metadata?locale=en-US)
+> - In der Link Sammlung sind 2 Links zu ABAP Annotationen, ich würde noch einen zu UI Annotationen, mit welchen ja ausschließlich im BAS gearbeitet wird ergänzen: [Working With UI Annotations](https://sapui5.hana.ondemand.com/#/topic/83c89ccef12f48ab98f6c3811bd025b3)
+
 SAP UI Annotations are metadata properties defined in OData services that guide the user interface (UI) in rendering, behavior, and semantics without requiring explicit UI coding. They enable a *declarative approach* to define how data and UI elements should be presented in SAP Fiori and SAPUI5 applications.
 ### Key Concepts
 - **Purpose:** UI Annotations enrich OData services with instructions for the frontend on how to visualize and interact with business data. Examples include specifying if a field is read-only, should be displayed as a chart, or needs special formatting.

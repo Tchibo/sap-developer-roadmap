@@ -1,5 +1,11 @@
 #Intermediate 
 
+> [!TODO] Review Comment
+> - Eventuell eine Überlegung Themen wie Dieses hier in ein eigenes Subtopic zu packen mit dem Stichwort "Usability Features", dort könnte man dann auch sachen verorten wie Variant Handling
+> - Der Text ist vom Inhalt her gut, könnte aber noch etwas plastischer aufbereitet sein mit etwas mehr Formatierung (dick gedruckte Texte, Liste etc.)
+> - Sehr guter und wichtiger Content!
+
+
 Draft handling is a crucial concept in SAP Fiori, especially when dealing with complex data entry scenarios. It provides a mechanism for users to save their work-in-progress changes without committing them permanently. This allows users to pause data entry tasks and resume them later without losing any information. Drafts are typically stored on the backend and can be retrieved whenever needed.
 
 In SAP Fiori, draft handling ensures the smooth propagation of user entries through the application lifecycle. It offers key functionalities like auto-saving, which reduces the risk of data loss due to session timeouts or accidental closures. Additionally, drafts can be shared among different users, facilitating collaborative workflows.

@@ -1,3 +1,4 @@
+#basic
 Developed by Microsoft, the **Open Data Protocol (OData)** is an open standard for REST-based data access via HTTP. It is built upon core REST principles, which ensure resource-oriented URLs and the correct use of HTTP verbs (GET, POST, etc.) for each action.
 
 The protocol provides a set of common rules to standardize request patterns. This includes uniform query options for common tasks like paging (`$top`, `$skip`), filtering (`$filter`), and sorting (`$orderby`).

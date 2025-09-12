@@ -1,3 +1,4 @@
+#basic
 Event Driven Architecture (EDA) is an integration paradigm, that allows systems to communicate asynchronously and decoupled in near real time. Here an event producer publishes events, while subscriber can consume the events whenever it suits them.
 
 The event is in this context the payload with the information and it contains the change of a business object. 

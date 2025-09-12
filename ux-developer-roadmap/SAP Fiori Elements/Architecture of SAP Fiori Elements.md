@@ -1,5 +1,10 @@
 #Basic 
 
+> [!TODO] Review Comment
+> - Grundsätzlich wichtiger Inhalt! Allerdings hätte ich bei diesem Subtopic eher erwartet, dass es spezifischer auf die Struktur eines Fiori Elements Repositories eingeht, also die tatsächliche File Struktur und welche Ordner für den Entwickler wichtig sind. Wie z.B der "annotations"-Ordner oder die `mta.yaml`-Datei
+> - MVC ein sehr großes Thema evtl zu groß für ein kleines Subtopic, welches auch noch andere Themen aufgreift? (Wenn es drin bleiben soll würde ich definitiv auch eine Doku dazu verlinken z.B. diese hier: [GUI Architectures](https://martinfowler.com/eaaDev/uiArchs.html#ModelViewController))
+> - Sind Smart Controls unter Fiori Elements zu verordnen? Sehe das eher bei Freestyle, da ja auch die OData V4 Kompatibilität nur teilweise gegeben ist
+
 The architecture of SAP Fiori Elements consists of a frontend built using HTML5 and JavaScript, combined with OData services. Fiori Elements is designed to operate within the SAPUI5 framework, leveraging SAP's robust client-server architecture to ensure high performance and scalability.
 The frontend utilizes the model-view-controller (MVC) paradigm, where:
 - **Model**: Represents the data sourced through OData.

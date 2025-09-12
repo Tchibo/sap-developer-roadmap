@@ -1,5 +1,10 @@
 #Basic
 
+> [!TODO] Review Comment
+> - Überschriften weglassen?! Aufgrund des begrenzten Platzes einer Roadmap Karte eventuell auf Überschriften verzichten..
+> - Formulierungen wie "Key Aspects" deuten auf Chat GPT hin
+> - Würde im Text auch darauf eingehen, dass es bei dem Thema auch die Gesaltung einer einfach-zu-bedienenden Oberfläche geht die immer gleich aussieht
+
 Fiori Elements are a powerful tool within the SAP Fiori framework designed for rapid development of SAP applications. They offer a set of pre-defined page types, paradigms, and layouts which follow standardized patterns and guidelines. This enables developers to create consistent, high-quality, and scalable applications quickly by minimizing the need for custom code.
 
 ### Key Aspects of Fiori Elements:

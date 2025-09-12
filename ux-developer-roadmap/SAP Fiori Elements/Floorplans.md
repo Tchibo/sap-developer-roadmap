@@ -1,5 +1,10 @@
 #Basic 
 
+> [!TODO] Review Comment
+> - Eventuell noch darauf zu sprechen kommen, dass es bei dem ganzen Thema auch darum geht einen Wiedererkennungswert zu schaffen, sodass sich der Benutzer nicht jedesmal an eine neue Oberfläche gewöhnen muss. Außerdem sind Fiori Oberflächen ja auch sehr simpel und intuitiv gestaltet, das könnte man auch noch erwähnen
+> - Definitv noch die Fiori Guidelines erwähnen und auch die Oberseite verlinken: [Fiori Guidelines](https://www.sap.com/design-system/fiori-design-web)
+> - Guter Content!
+
 Fiori elements provides a set of standardized, ready-to-use UI templates known as **floorplans**, designed to rapidly build SAP applications with a consistent and efficient user experience. Each floorplan is tailored to common business scenarios, ensuring a uniform appearance and behavior across applications, and reducing the need for custom UI coding.
 ### Key Floorplan Types
 - **List Report:** Displays large datasets in a table format. Supports powerful filtering, sorting, and grouping.

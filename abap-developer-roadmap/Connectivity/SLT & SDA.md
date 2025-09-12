@@ -5,12 +5,10 @@
 
 Within SAP a change made to the source table is replicated into a staging table. This staging tables are processed by observer jobs running on the application server (not in the database)
 reading all data for every entry and replicate it to a target database. 
-
 ### Smart Data Access
 **Smart Data Access(SDA)** is a technology in SAP HANA that enables data federation by virtualizing remote data sources, allowing SAP HANA to access and query external databases as if their tables were local within HANA.
 
 This requires additional effort since virtual database tables have to be made available via CDS table function, AMDP framework or via calculation views.
-
 ### Usage
 Careful consideration must be given to the use of SDA & SLT for each use case, depending on the load generated to the database server, but also the redundancy and complexity added to the solution by the use of the respective technology.
 ### Resources

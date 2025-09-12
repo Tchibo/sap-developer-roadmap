@@ -1,13 +1,10 @@
-- [ ] #todo Advantages of OData in general
-- [ ] #todo Mention CDS & RAP?
-- [ ] #todo OData = standard way to go for custom developments
+Developed by Microsoft, the **Open Data Protocol (OData)** is an open standard for REST-based data access via HTTP. It is built upon core REST principles, which ensure resource-oriented URLs and the correct use of HTTP verbs (GET, POST, etc.) for each action.
 
-**Open Data Protocol (OData)** is an open standard developed by Microsoft as REST based data access via HTTP.  REST ensures resource-oriented URLs and the correct use of HTTP verbs (GET, POST, etc.) for each action. OData builds on this and standardizes the request pattern, adding uniform query options for paging (`$top`, `$skip`), filtering (`$filter`), and sorting (`$orderby`).
+The protocol provides a set of common rules to standardize request patterns. This includes uniform query options for common tasks like paging (`$top`, `$skip`), filtering (`$filter`), and sorting (`$orderby`).
 
-OData is provided in two versions: V2 was widely used in the past.
-=> Offen: hat V2 noch eine Daseinsberechtigung abseits das es nicht alle Standard APIs als V4 gibt? Check gen Arjo
+Its primary benefit lies in exposing backend data in a standardized, queryable, and discoverable way, significantly reducing the custom code needed on both client and server. This makes OData the standard choice for custom development, since it perfectly suited for building synchronous web API's as well as UI services for SAP Fiori. These can be set up based on Core Data Services as well as Restful Application Programming.
 
-The new version V4 provides a bunch of advantages like better metadata compression, more sophisticated queries, sorting and filter mechanisms. 
+ While the older V2 version was widely used in the past, the new V4 version offers a range of advantages, including better metadata compression and more sophisticated query, sorting, and filter mechanisms. therefore only the newer v4 version should be used.
 
 ```
     "results" : [  
@@ -28,11 +25,6 @@ The new version V4 provides a bunch of advantages like better metadata compressi
 ...
 ```
 ### Usage
-OData can and should be used in cases were a synchronous access on data in SAP systems is needed. Newly developed oData's should always be set up in version 4.
-
-=> Macht hier die Unterscheidung Inbound / Outbound wirklich Sinn?
-odata - way to go for inbound, outbound ggf. REST ? 
-Erläuterung Inbound & Outbound - von SAP zu SAP
 
 ### Ressources
 [ODATA V4 | SAP S/4HANA Cloud Private Edition | SAP Business Accelerator Hub](https://api.sap.com/products/SAPS4HANACloudPrivateEdition/apis/ODATAV4)

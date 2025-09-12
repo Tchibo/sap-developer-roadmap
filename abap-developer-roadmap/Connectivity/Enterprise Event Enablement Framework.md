@@ -1,4 +1,4 @@
-#intermediate
+#advanced
 The enterprise event enablement provides the ability to exchange events between SAP S/4HANA and a message broker. It supports outbound (publish) as well as inbound (subscribe) scenarios.
 
 In order to either publish or consume events its necessary to define a channel to a message broker. Via outbound binding all event topics are defined that shall be published on this channel to the message broker. The inbound binding works in the same way with subscribing to a queue on the broker and to a certain event topic coming from this queue.

@@ -1,3 +1,5 @@
+#Basic #Topic2
+
 TYPE definitions can be declared anywhere in ABAP code. But they are usually declared in the public section of a class or in an interface.
 They can be used to define any kind of type: elementary data types, structures, tables or deep types contia
 ```

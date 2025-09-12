@@ -1,3 +1,5 @@
+>Anmerkung: Vielleicht können wir noch einen Hinweis auf die ABAP-Roadmap geben. In Conectivity kommt auch ein OData Teil vor.
+
 #Advanced 
 
 OData (Open Data Protocol) is a web service standard used by SAP to facilitate data exchange between systems. It provides a uniform way to share, access, and modify data over common web protocols, like HTTP, supporting both XML and JSON formats. OData allows the creation of RESTful APIs, enabling developers to access data directly from SAP systems, which is crucial for building enterprise-level applications.

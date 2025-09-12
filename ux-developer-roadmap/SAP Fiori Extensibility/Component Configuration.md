@@ -1,9 +1,5 @@
 #Advanced 
 
-
-> [!toDo] Practice review comments
-> This is to practice giving review comments prior to merge
-
 Standard Fiori Apps that use synchronous views or do not use stable IDs for their UI controls can only be extended using 'Component Configuration'. Component configuration is done in Fiori **extension projects**. If and when required you are advised to create an extension project (instead of an adaptation project) while using the 'SAP UI5 Adaptation Project' application generator template.
 
 In the process of extending the original application component configuration entries are added to its manifest.json. The type of manifest configuration entry that gets added depends on the type of extension you choose in 'Create extension' (on 'right click' of file .extconfig.json). You have the option to a.) extend a view controller, b.) extend a view, c.) hide a control on a view or to d.) replace a view. 

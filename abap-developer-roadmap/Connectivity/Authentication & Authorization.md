@@ -9,7 +9,7 @@ In the context of outbound or inbound communication relevant methods are
 - Security Assertion Markup Language (SAML)
 At least when interacting with Cloud services, integrations must not use basic authentication.
 ### Authorization
-**Authorization** defines user **permissions** after authentication. Within ABAP Platform this is done by  authorization objects and values which are being put into roles that are assigned to a user.
+**Authorization** defines user **permissions** after authentication was done. Within ABAP Platform this is done by adding authorization objects and values which are being put into roles that are assigned to a user that logs on to the system. 
 
 Authorizations are especially relevant for inbound communication were its necessary to determine which rights a user has to create, change, delete or read a certain information. For the inbound case the authorizations needs to be restricted. 
 ### Functional User vs. Principal Propagation

@@ -5,7 +5,7 @@ The protocol provides a set of common rules to standardize request patterns. Thi
 
 Its primary benefit lies in exposing backend data in a standardized, queryable, and discoverable way, significantly reducing the custom code needed on both client and server. This makes OData the standard choice for custom development, since it perfectly suited for building synchronous web API's as well as UI services for SAP Fiori. These can be set up based on Core Data Services as well as Restful Application Programming.
 
- While the older V2 version was widely used in the past, the new V4 version offers a range of advantages, including better metadata compression and more sophisticated query, sorting, and filter mechanisms. therefore only the newer v4 version should be used.
+ While the older V2 version was widely used in the past, the new V4 version offers a range of advantages, including better metadata compression and more sophisticated query, sorting, and filter mechanisms. therefore the new version v4 is the preferred version to use.
 
 ```
     "results" : [  

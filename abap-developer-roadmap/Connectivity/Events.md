@@ -13,5 +13,6 @@ Notification Events risk creating an API bottleneck and decrease system decoupli
 Events in SAP use the Cloud Events standard as the standardized message format. The specification for the asynchronous APIs that handle these events is described using Async API.
 ### Resources
 #website[A Beginner's Guide to Event-Driven Architecture](https://www.kurrent.io/event-driven-architecture)
+#website [What Is Event-Driven Architecture?](https://docs.solace.com/Get-Started/event-mesh-basics.htm)
 #website[Advanced Event Mesh Tutorials](https://help.pubsub.em.services.cloud.sap/Cloud/ggs_signup.htm)
 #website [Enhance SAP with Advanced Event Mesh | Solace](https://solace.com/blog/enhance-sap-with-advanced-event-mesh/)

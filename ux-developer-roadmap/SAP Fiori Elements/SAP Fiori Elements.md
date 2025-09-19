@@ -1,13 +1,8 @@
 #Basic
 
-> [!TODO] Review Comment
-> - Überschriften weglassen?! Aufgrund des begrenzten Platzes einer Roadmap Karte eventuell auf Überschriften verzichten..
-> - Formulierungen wie "Key Aspects" deuten auf Chat GPT hin
-> - Würde im Text auch darauf eingehen, dass es bei dem Thema auch die Gesaltung einer einfach-zu-bedienenden Oberfläche geht die immer gleich aussieht
+Fiori Elements is a powerful tool within the SAP Fiori framework designed for rapid development of SAP applications. They offer a set of pre-defined page types, paradigms, and layouts which follow standardized patterns and guidelines. This enables developers to create consistent, high-quality, and scalable applications quickly by minimizing the need for custom code. Furthermore, a simple and intuitive user interface is offered, which has a high recognition effect.
 
-Fiori Elements are a powerful tool within the SAP Fiori framework designed for rapid development of SAP applications. They offer a set of pre-defined page types, paradigms, and layouts which follow standardized patterns and guidelines. This enables developers to create consistent, high-quality, and scalable applications quickly by minimizing the need for custom code.
-
-### Key Aspects of Fiori Elements:
+### Essential Aspekts
 - **Model-Driven Development:** Fiori Elements leverage metadata from OData services to automatically generate UI components, streamlining development processes and ensuring tight integration with underlying business logic.
     
 - **Consistent User Experience:** By utilizing established design patterns and UI components, Fiori Elements ensure uniformity across applications, reinforcing a standard look-and-feel that enhances user interaction.
@@ -19,6 +14,7 @@ Fiori Elements are a powerful tool within the SAP Fiori framework designed for r
 
 Understanding and leveraging Fiori Elements is crucial for any SAP Fiori Developer to excel in developing applications that are both efficient and user-friendly, while adhering to SAP's design principles.
 ### Useful Links
+- #Article [SAP Fiori Guidelines](https://www.sap.com/design-system/fiori-design-web)
 - #Article [Documentation SAP Fiori Elements](https://www.sap.com/design-system/fiori-design-web/discover/frameworks/sap-fiori-elements/smart-templates?external)
 - #Article [Introduction to SAP Fiori Elements](https://www.sap.com/design-system/fiori-design-web/v1-84/discover/frameworks/sap-fiori-elements/smart-templates?external)
 -  #Article [Developing Apps with Fiori Elements](https://help.sap.com/docs/ABAP_PLATFORM_NEW/468a97775123488ab3345a0c48cadd8f/03265b0408e2432c9571d6b3feb6b1fd.html?locale=en-US)

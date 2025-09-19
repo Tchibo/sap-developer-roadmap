@@ -1,11 +1,6 @@
 #Basic 
 
-> [!TODO] Review Comment
-> - Eventuell noch darauf zu sprechen kommen, dass es bei dem ganzen Thema auch darum geht einen Wiedererkennungswert zu schaffen, sodass sich der Benutzer nicht jedesmal an eine neue Oberfläche gewöhnen muss. Außerdem sind Fiori Oberflächen ja auch sehr simpel und intuitiv gestaltet, das könnte man auch noch erwähnen
-> - Definitv noch die Fiori Guidelines erwähnen und auch die Oberseite verlinken: [Fiori Guidelines](https://www.sap.com/design-system/fiori-design-web)
-> - Guter Content!
-
-Fiori elements provides a set of standardized, ready-to-use UI templates known as **floorplans**, designed to rapidly build SAP applications with a consistent and efficient user experience. Each floorplan is tailored to common business scenarios, ensuring a uniform appearance and behavior across applications, and reducing the need for custom UI coding.
+Fiori elements provides a set of standardized, ready-to-use UI templates known as **floorplans**, designed to rapidly build SAP applications with a consistent and efficient user experience. Users have a high recognition effect and find their way around an app more quickly because the UI is simple and intiutive. Each floorplan is tailored to common business scenarios, ensuring a uniform appearance and behavior across applications, and reducing the need for custom UI coding. The UI
 ### Key Floorplan Types
 - **List Report:** Displays large datasets in a table format. Supports powerful filtering, sorting, and grouping.
 - **Object Page:** Shows detailed information about a single object, often navigated to from the List Report.
@@ -18,6 +13,7 @@ Fiori elements provides a set of standardized, ready-to-use UI templates known a
 - Choice of floorplan is determined by the **business use case** (overview, analytics, processing tasks, or detailed object management).
 - Floorplans are deeply integrated with **OData services**, with available features and capabilities sometimes differing depending on the OData version (V2 vs. V4).
 ### Useful Links
+- #Article [SAP Fiori Guidelines](https://www.sap.com/design-system/fiori-design-web)
 - #Article [Using SAP Fiori Elements Floorplans](https://help.sap.com/docs/ABAP_PLATFORM_NEW/468a97775123488ab3345a0c48cadd8f/797c3239b2a9491fa137e4998fd76aa7.html?locale=en-US)
 - #Article [Choosing the right floorplan (help.sap.com)](https://experience.sap.com/fiori-design-web/when-to-use-which-floorplan/)
 - #Article [Developing a Fiori elements app](https://developers.sap.com/group.abap-build-fiori-element-rap.html)

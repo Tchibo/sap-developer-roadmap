@@ -11,16 +11,6 @@ data is done asynchronously by a push request which can be repeated in case of u
 - **Status & Monitoring**: IDocs have specific statuses like 'created', 'ready for dispatch', 'success', or 'error', allowing users to track their journey and troubleshoot problems.
 ### Usage
 There are various ways of transmitting IDocs to a destination, such as tRFC, via XML file and sending XML via HTTP. In general only sending XML by HTTP should be used while creating and moving files should be avoided. 
-### Resources
-- #Article  [Introduction, Administration & Development of IDocs](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/8f3819b0c24149b5959ab31070b64058/4ab074b6aa3a1997e10000000a421937.html?locale=en-US)
-- #Article [SAP IDoc Structure](https://help.sap.com/doc/saphelp_gbt10/1.0/en-US/4b/38625bad7f74fee10000000a421937/content.htm?no_cache=true)
-- #Article [SAP IDoc Technical Implementation](https://help.sap.com/doc/saphelp_gbt10/1.0/en-US/4b/38633ead7f74fee10000000a421937/content.htm?no_cache=true)
-- #Article [Error Handling in IDocs](https://community.sap.com/t5/application-development-and-automation-blog-posts/sap-idoc-base-integration-error-handling-amp-monitoring-guide/ba-p/12945289))
-- #Course [Idoc Tutorial](https://developers.sap.com/tutorials/aif-idoc-monitoring-interface-customize.html)
-- #Course [Create A Simple IDoc Tutorial](https://developers.sap.com/tutorials/aif-idoc-monitoring-interface-create.html)
-- #Article [IDoc Basics](https://community.sap.com/t5/technology-blog-posts-by-members/everything-about-sap-idocs-in-s-4-hana/ba-p/13976355)
-- #Article [Configuring Steps in IDoc](https://community.sap.com/t5/crm-and-cx-blog-posts-by-members/configuration-steps-in-idoc/ba-p/13213448)
-
 ### Example
 ```
 < ORDERS04 >
@@ -29,15 +19,11 @@ There are various ways of transmitting IDocs to a destination, such as tRFC, via
 		< EDI_DC40 >
 			< DOCNUM > 0000002795406728 </ DOCNUM >
 			< MESTYP > ORDERS </ MESTYP >
-			< SNDPOR > SAPQS4 </ SNDPOR >
-			< SNDPRT > LS </ SNDPRT >
-			< RCVPOR > GKR_SAPDE </ RCVPOR >
 			...
 		</ EDI_DC40 >
     "=>  data records / Head"		
 		< E1EDK01 >
 			< CURCY > EUR </ CURCY >
-			< BSART > UB </ BSART >
 			< BELNR > 4546701413 </ BELNR >
 			..
 		</ E1EDK01 >
@@ -47,15 +33,20 @@ There are various ways of transmitting IDocs to a destination, such as tRFC, via
 			< POSEX > 00010 </ POSEX >
 			< MENGE > 45.000 </ MENGE >
 			< MENEE > KO </ MENEE >
-			< MATKL > FMV </ MATKL >
 			< WERKS > 0210 </ WERKS >
-			< E1EDP20 >
-				< WMENG > 45.000 </ WMENG >
-				< EDATU > 20250829 </ EDATU >
-			</ E1EDP20 >
 			< E1EDP19 >
 				< IDTNR > 000000000000000917 </ IDTNR >
 				< KTEXT > TC Feine Milde 250gx2x9 Vakum </ KTEXT >
 			</ E1EDP19 >
 		</ E1EDP01 >
 ```
+
+### Resources
+- #Article  [Introduction, Administration & Development of IDocs](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/8f3819b0c24149b5959ab31070b64058/4ab074b6aa3a1997e10000000a421937.html?locale=en-US)
+- #Article [SAP IDoc Structure](https://help.sap.com/doc/saphelp_gbt10/1.0/en-US/4b/38625bad7f74fee10000000a421937/content.htm?no_cache=true)
+- #Article [SAP IDoc Technical Implementation](https://help.sap.com/doc/saphelp_gbt10/1.0/en-US/4b/38633ead7f74fee10000000a421937/content.htm?no_cache=true)
+- #Article [Error Handling in IDocs](https://community.sap.com/t5/application-development-and-automation-blog-posts/sap-idoc-base-integration-error-handling-amp-monitoring-guide/ba-p/12945289))
+- #Course [Idoc Tutorial](https://developers.sap.com/tutorials/aif-idoc-monitoring-interface-customize.html)
+- #Course [Create A Simple IDoc Tutorial](https://developers.sap.com/tutorials/aif-idoc-monitoring-interface-create.html)
+- #Article [IDoc Basics](https://community.sap.com/t5/technology-blog-posts-by-members/everything-about-sap-idocs-in-s-4-hana/ba-p/13976355)
+- #Article [Configuring Steps in IDoc](https://community.sap.com/t5/crm-and-cx-blog-posts-by-members/configuration-steps-in-idoc/ba-p/13213448)

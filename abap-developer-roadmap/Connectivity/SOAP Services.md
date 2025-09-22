@@ -4,7 +4,7 @@ SOAP web services use the SOAP protocol for standardized, XML-based data exchang
 The WSDL (Web Services Description Language) describes the used data types as well as the methods that can be used for requesting data. When the provider changes the web service, the WSDL must be updated, and all consumers must update their WSDL and adapt their clients accordingly.
 ### Usage
 SOAP web services should be used only asynchronous and when they are provided by SAP for the use case of asynchronous data provisioning either outbound or inbound to SAP.
-### Ressources
+### Resources
 #website [SOAP | SAP S/4HANA Cloud Private Edition | SAP Business Accelerator Hub](https://api.sap.com/products/SAPS4HANACloudPrivateEdition/apis/SOAP)
 #website [Web Service Technologies in the Application Server | SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/753088fc00704d0a80e7fbd6803c8adb/488598c8210f0e27e10000000a421937.html?locale=en-US)
 #website [ABAP Web Services | SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/684cffda9cbc4187ad7dad790b03b983/4852347a08e672d0e10000000a42189c.html?locale=en-US)

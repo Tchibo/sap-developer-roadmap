@@ -1,6 +1,7 @@
 #basic
 Destinations are the construct where endpoints as well as authentication information is  stored or referenced. Typically this is done via transaction `SM59`, which is widely used within SAP.
 The following destination types can be administered here
+
 - HTTP Destinations 
 - RFC / ABAP Destinations
 - registered Server Programs

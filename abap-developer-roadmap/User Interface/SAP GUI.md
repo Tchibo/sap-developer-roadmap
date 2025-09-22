@@ -1,4 +1,8 @@
-#basic 
+#Basic 
+
+
+> [!NOTE] Anmerkungen
+> - [ ] Ist die GUI client side? Wir springen doch direkt in den ABAP Code. Liegt der lokal vor?
 
 SAP GUI is a stateful, client side UI technology for rendering in a locally installed application. 'Stateful' refers to the fact that the ABAP application server keeps track of the state of a user session between user interactions, 'client side' refers to the fact that UI components are processed on the client device to render the UI. Backend requests from SAP GUI to the ABAP Platform transport only the data that needs to be rendered. 
 

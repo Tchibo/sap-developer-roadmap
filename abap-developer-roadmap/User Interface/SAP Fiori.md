@@ -1,4 +1,11 @@
-#basic 
+#Basic 
+
+
+> [!NOTE] Anmerkung
+> Gefällt mir gut, dass du stateless und client side erklärst.
+> - [ ] RAP im Fiori Elements Abschnitt erwähnen?
+> - [ ] Kurze Verwendungsempfehlung hinzufügen
+> - [ ] Im ersten Abschnitt erwähnen, dass die Apps möglichst einfach und User-friendly sein sollen?
 
 **SAP Fiori** applications use the **SAPUI5** JavaScript client library to render user interfaces as 'Single Page Applications' in the web browser. SAPUI5 based applications that respect the Fiori Design Guidelines are called SAP Fiori applications.
 

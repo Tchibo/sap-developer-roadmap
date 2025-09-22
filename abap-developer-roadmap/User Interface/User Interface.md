@@ -1,4 +1,8 @@
-#basic
+#Basic
+
+ 
+> [!NOTE] Anmerkung
+> - [ ] Tchibo best practices: Das klingt als gäbe es eine öffentliche Best Practices zum Nachlesen.
 
  As an ABAP Full Stack developer you have to make a call on how to render the application logic to the user community that should consume it. The SAP ABAP Platform technology stack has evolved in its long history of providing user interfaces (UI) for business applications. Some of those are 'thick' client-side UIs (additional application installed on the user's device, like SAP GUI), some are server-side UIs (created on the server and uploaded to the client for execution, like ABAP Web Dynpro) and some are 'thin' client-side UIs (downloaded library of JavaScript executables, run and cached in the browser, like SAPUI5).
  

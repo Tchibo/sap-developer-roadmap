@@ -1,3 +1,5 @@
+#Intermediate #Topic6
+
 **A Number Range Object** is a SAP configuration that maintains a persisted counter value used for ID generation. Each time a new ID is requested, the counter is incremented and the new value is returned.
 
 Number Range Objects automatically generate (**"internal assignment"**) unique, sequential identifiers (numeric or alphanumeric) within specified ranges. They are widely used throughout SAP modules for Products, Invoices, Sales Orders, and many other business objects.

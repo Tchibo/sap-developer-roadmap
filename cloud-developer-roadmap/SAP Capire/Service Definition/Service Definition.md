@@ -7,16 +7,13 @@ links:
 source:
 aliases:
 ---
-> [!todo] View do get deployed to the database me thinks...
-> Views defined as projections on entities are in fact deployed as database artefacts. At least in the HANA Cloud service.
+The Service Layer in the [[SAP Capire|CAP]] Framework defines the API contracts for accessing your application's functionality and exposes the [[domain model]] through standardized interfaces, ensuring consistent access patterns while maintaining a separation of concerns between the core data model and external consumers.
 
-The Service Layer in the [[SAP Capire]] Framework defines the API contracts for accessing your application's functionality and exposes the [[domain model]] through standardized interfaces.
+In [[SAP Capire|CAP]], services are declared using [[CAP CDS|CDS]] service definitions, which specify the entities to expose and the allowed operations. The Service Layer acts as a controlled gateway between clients and the application's core business logic, enforcing consistency, validation, and access rules.
 
-In [[SAP Capire]], services are declared using [[CDS]] service definitions, which specify which entities are exposed and what operations are allowed. The Service Layer acts as a controlled gateway between clients and your application's core business logic.
+Service [[Views & Projections]] are defined in the `service.cds` file. When deployed to a database such as [[PostgreSQL on SAP BTP]] or [[SAP HANA Cloud]], these projections are materialized as actual database artifacts. They are no longer purely virtual but become database views or other deployable objects, allowing clients to interact with them like standard tables while maintaining selection, aggregation, or transformation logic. [[SAP Capire|CAP]] automatically maps operations on these projections back to the underlying domain entities, ensuring that data modifications are persisted correctly and access controls are applied.
 
-Service [[Views & Projections]] in the Service Layer are not persisted as separate database objects. Instead, they provide virtual views of the underlying [[domain entities]], which are mapped to persistent tables. When clients interact with these projections, [[SAP Capire]] translates the operations to the corresponding domain entities, ensuring data modifications are properly stored while maintaining the projection's view semantics and access controls.
-
-The Service Layer ensures consistent access patterns while maintaining a separation of concerns between your domain model and external interfaces.
+By materializing projections as database artifacts, [[SAP Capire|CAP]] ensures efficient, consistent access to data while preserving a clear separation between the domain model and service interfaces.
 
 **Sources**
 - [SAP Capire - Providing Services](https://cap.cloud.sap/docs/guides/providing-services#providing-services)

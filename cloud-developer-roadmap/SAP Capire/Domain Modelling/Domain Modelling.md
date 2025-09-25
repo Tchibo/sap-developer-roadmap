@@ -14,16 +14,17 @@ aliases:
   - capire
   - Domain Model
 ---
-> [!toDo] Reference to how the domain model is materializing in CAP
-> It helped me a lot at the time when I understood at the time that schema.cds contained the domain model (becoming database tables at time of deployment to be database) and service.cds contained the service definition for rendering of the model (becoming views at time of deployment to the database). I would mention some of that here.
+Domain modeling in the [[SAP Capire|CAP]] Framework involves creating a conceptual data model that represents business objects, their [[relationships]], and rules within your [[application domain]]. In [[SAP Capire|CAP]], this is typically implemented using [[CAP CDS|CDS]], which provides a declarative language to define [[Domain Entites|entities]], [[Association|associations]], and services.
 
-Domain Modelling in the SAP [[SAP Capire|Cloud Application Programming]] Framework refers to the creation of a conceptual data model that represents the business objects, their [[relationships]], and rules in your [[application domain]] and is responsible for the definition of [[persistent tables]].
+The [[SAP Capire|CAP]] domain model is usually organized into separate files, such as `schema.cds` for persistent data definitions and `service.cds` for the service layer exposing the model. During deployment, `schema.cds` is materialized into database tables, while `service.cds` becomes views or service endpoints, such as [[OData]] or [[REST API]]s, rendering the model for application consumption. This separation ensures that the domain model serves as a single source of truth, abstracting technical details of data storage while allowing the service layer to adapt to different consumer needs.
 
-In the [[SAP Capire|CAP]] context, this is typically implemented through [[Core Data Services]], which provides a declarative language for defining [[Domain Entites|entities]], [[Association|associations]], and services. The [[Domain Modelling|Domain Model]] forms the foundation of your application and abstracts the technical details of data storage.
+An important extension of the domain model in [[SAP Capire|CAP]] is Draft Handling, which allows users to work on data in an intermediate state before finalizing changes. By using the `@odata.draft.enabled` annotation on entities, [[SAP Capire|CAP]] automatically generates the required entities, including shadow draft tables and lifecycle actions such as `EDIT`, `ACTIVATE`, and `CANCEL`. Drafts are managed through [[OData v4]], maintaining separate draft and active versions of entities. Key benefits include optimistic locking to prevent conflicting edits, automatic draft cleanup, and the ability to add custom validations.
 
-The [[Domain Modelling|Domain Model]] serves as the single source of truth for your [[application logic]] and simplifies the maintenance and evolution of your systems.
+By combining a structured domain model with draft capabilities, [[SAP Capire|CAP]] ensures consistency, simplifies transactional workflows, and accelerates the evolution of business applications. Developers can focus on domain logic, while [[SAP Capire|CAP]] handles schema generation, service exposure, and draft lifecycle management automatically.
 
 **Sources**
 - [SAP Capire - CDL](https://cap.cloud.sap/docs/cds/cdl)
 - [SAP Capire - Domain Modelling](https://cap.cloud.sap/docs/guides/domain-modeling)
 - [SAP Capire - Performance Modeling](https://help.sap.com/docs/btp/sap-business-technology-platform/application-router?locale=en-US)
+- [SAP Capire - Draft Support](https://cap.cloud.sap/docs/advanced/fiori#draft-support)
+- [SAP Capire - Lean Draft](https://cap.cloud.sap/docs/node.js/fiori#lean-draft)

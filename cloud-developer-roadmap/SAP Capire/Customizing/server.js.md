@@ -17,6 +17,10 @@ The standard implementation of the `server.js` file, as described in the [[SAP C
 > [!toDo] Shorter is sweeter
 > Considering that this needs to be read through the roadmap.sh UI this requires condensing and focus on just the key lines of code.
 
+>[!warning]
+> Do not include this code snippet on Roadmap.sh. Instead use this Information:
+> The `server.js` can be found under `node_modules/@sap/cds/server.js`
+
 ```js
 const express = require('express')
 const cds = require('./lib')
@@ -139,7 +143,7 @@ express.application.serve = function (endpoint) { return { from: (pkg,folder) =>
 This implementation shows how [[Express.js]] is prepared, [[middleware]] is mounted, [[SAP Capire|Capire]] models are loaded and compiled, connections to databases or messaging systems are established, and finally all declared services are served through the Express app.
 
 **Summary**
-The `server.js` file in [[SAP Capire]]’s [[Node.js]] runtime is the main entry point for initializing and configuring the backend service. Built upon Express.js, this file allows for flexible customization such as adding [[middleware]] or [[Logging]] and is structured according to best practices documented by SAP. By default, it prepares the Express app, mounts middleware, loads and compiles models, connects to essential services, and starts the server.
+The `server.js` file in [[SAP Capire]]’s [[Node.js]] runtime is the main entry point for initializing and configuring the backend service. Built upon Express.js, this file allows for flexible customization such as adding [[middleware]] or [[Logging in CAP]] and is structured according to best practices documented by SAP. By default, it prepares the Express app, mounts middleware, loads and compiles models, connects to essential services, and starts the server.
 
 **Sources**
 - [SAP Capire - Built-in server.js](https://cap.cloud.sap/docs/node.js/cds-server#built-in-server-js)

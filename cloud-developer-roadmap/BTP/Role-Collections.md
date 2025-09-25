@@ -14,11 +14,5 @@ Role collections in [[SAP BTP|SAP Business Technology Platform]] are used to gro
 
 Role collections are typically managed in the [[SAP BTP Cockpit]], where administrators can add or remove roles from collections and assign these collections to the required users. Using role collections helps streamline the process of maintaining access controls as business requirements evolve.
 
-> [!toDo] Summary required?
-> As the text is already quite compact I'm wondering whether a summary is needed
-
-**Summary**  
-Role collections in [[SAP BTP|SAP Business Technology Platform]] allow administrators to bundle several roles and assign them collectively to users or groups, making access management more efficient and consistent.
-
 **Sources**
 - [SAP Help Portal - Roles and Role-Collections](https://help.sap.com/docs/btp/sap-business-technology-platform/roles-and-role-collections)

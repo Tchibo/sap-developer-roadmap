@@ -21,16 +21,14 @@ const cds = require('@sap/cds');
 
 module.exports = cds.service.impl(async function() {
   this.after('CREATE', 'Books', (req) => {
-    // Automatically set createdAt timestamp
-    req.forEach(book => {
-      book.createdAt = new Date().toISOString();
-    });
+	// You could achieve something like this with help of the @assert.range annotation
+	const { price } = req.data;
+	if (price < 0) {
+	  req.error(400, 'Price must not be negative');
+	}
   });
 });
 ```
-
-> [!toDo] Will the 'createdAt' implemented 'After' be persisted?
-> To have the 'createdAt' attribute persisted as well, wouldn't you have to perform the database update here as well?
 
 In this example, the event handler is registered using the `after` hook for the `CREATE` event on the `Books` entity. For every book created, it sets the `createdAt` property to the current timestamp.
 

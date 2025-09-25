@@ -12,51 +12,32 @@ aliases:
   - aspects
   - Aspects
 ---
-> [!todo] The meaning of 'map entity structures' needs clarification or rewording
-> Even to the initiated reader 'map entity structure' does not seem to clearly outline the benefit of using 'aspects' in domain data modeling. To me an 'aspect' defines the attributes that go with specific context, e.g. 'key definition', 'amount definition', 'text definition' etc. and as such can be reused by entities in such contexts.
-
-Aspects can be used to map entity structures, which can then be inherited when defining a new entity. [[SAP]] already provides some frequently used aspects under the namespace `sap.common`, which can be "implemented" in the data model.
+In the [[SAP Capire|CAP]] framework, an **aspect** is a reusable set of attributes that can be applied to multiple entities in different contexts. Aspects allow you to define common patterns, such as key definitions, amounts, or descriptive fields, once and reuse them across your data model. This improves consistency, reduces duplication, and makes maintenance easier. SAP provides frequently used aspects under the `sap.common` namespace, which can be implemented in custom entities.
 
 **Example
 ```cds
-aspect CustomValueHelp {
-	name : localised String(80);
-	description : localised String(250);
+aspect ContactInfo {
+  email: String(100);
+  phone: String(20);
 }
 
-entity BusinessPartnerVH : CustomValueHelp {
-	key bupa : String(80);
+// Apply aspect to a new entity
+entity Customer : ContactInfo {
+  key id : UUID;
+  name    : String(100);
 }
 
-// Is equivalent to
-entity BusinessPartnerVH {
-	key bupa : String(80);
-		name : localised String(80);
-		description : localised String(250);
+// Extend an existing entity with an aspect
+entity Supplier {
+  key id   : UUID;
+  name     : String(100);
 }
+
+extend Supplier with ContactInfo;
+
 ```
 
-Existing entities can also be extended by an [[Aspect]].
-
-**Example
-```
-aspect ProductInformation {
-	category: Association to one ProductCategory;
-	name: localised String;
-	description: localised String;
-}
-
-entity ToyCar {
-	colour: String;
-}
-
-extend ToyCar with ProductInformation;
-
-// Is equaivalent to
-entity ToyCar : ProductInformation {
-	colour: String;
-}
-```
+In this example, both `Customer` and `Supplier` gain the `email` and `phone` attributes from the `ContactInfo` aspect without redefining them, illustrating how aspects help map common structures across entities. Aspects are especially useful when extending entities from external models or CDS plugins.
 
 > [!TIP]
 > The extension of entities is particularly helpful/useful if existing aspects or entities from a "foreign" data model or from a [[CDS plugin]] must/should be extended.

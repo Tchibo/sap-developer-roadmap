@@ -1,0 +1,1 @@
+The build phase is the step where a project is assembled into a deployable package. In this step the different components of the application, such as services, databases and user interfaces, are prepared and bundled together. Building ensures that all parts of the solution are ready to be deployed as one integrated application to the [[SAP BTP]] environment.

@@ -11,7 +11,6 @@ aliases:
 ---
 > [!TIP]
 > You can learn more about Git and GitHub on [Roadmap.sh](https://roadmap.sh/git-github)
-# What is Git?
 
 **Git** is a distributed version control system initially created by Linus Torvalds to manage the development of the Linux kernel but has since been widely adopted by developers around the world. It allows developers to track changes in source code, collaborate in teams, manage branches for new features or bug fixes, and revert to earlier versions when needed.
 
@@ -20,27 +19,9 @@ With Git, you can:
 - Restore previous states of a project
 - Create branches to develop new features in isolation
 - Merge code from different branches safely
-- Collaborate with others via remote repositories (e.g., GitHub, GitLab, Bitbucket)
+- Collaborate with others via remote repositories (e.g., [[GitHub]], [[GitLab]], [[Bitbucket]])
 
----
-
-> [!toDo] Format the 'learning resources' for easier copy and paste so that Sebastian can port them to roadmap.sh without trouble
-
-# Learning Resources
-
-| Category            | Name                                  | Link                                                   |
-|---------------------|----------------------------------------|--------------------------------------------------------|
-| Official Docs       | Git Documentation                      | [git-scm.com/doc](https://git-scm.com/doc)            |
-| Interactive Learning| Learn Git Branching                    | [learngitbranching.js.org](https://learngitbranching.js.org) |
-| Video Tutorial      | Git & GitHub Crash Course              | [YouTube](https://www.youtube.com/watch?v=RGOj5yH7evk) |
-| Cheatsheet          | GitHub Git Cheatsheet (PDF)            | [GitHub Education](https://education.github.com/git-cheat-sheet-education.pdf) |
-| Free Book           | Pro Git Book                           | [git-scm.com/book](https://git-scm.com/book/en/v2)    |
-| GitHub Docs         | GitHub Documentation                   | [docs.github.com](https://docs.github.com/en/get-started) |
-
----
-
-# Cheatsheet
-
+**Cheatsheet**
 ```bash
 # Configuration
 git config --global user.name "Your Name"
@@ -83,3 +64,10 @@ git revert <commit>           # Revert a commit (creates a new one)
 
 > [!TIP]
 > Use `git log --oneline --graph --all` for a compact visual overview of the commit history.
+
+**Sources**
+
+- [Official Docs](https://git-scm.com/doc)
+- [Interactive Learning](https://learngitbranching.js.org)
+- [GitHub Education - Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
+- [Roadmap.sh - Git GitHub](https://roadmap.sh/git-github)

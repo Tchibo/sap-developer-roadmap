@@ -11,21 +11,7 @@ links:
 source:
 aliases:
 ---
-> [!toDo] Not the CAP language choice at Tchibo at the moment
-> Considering that SAPUI5 is a JavaScript/ TypeScript runtime and already requires ABAP developers to be proficient in it for SAP Fiori extensions I would recommend against promoting CAP Java. As quality of coding comes largely by experience managing a third language (ABAP, JavaScript/ TypeScript) is not helpful. I would hence not mention it as a separate topic.
-
-**Backend Development with [[Java]]/[[Spring Boot]] in the SAP [[SAP Capire|CAP]] Framework**
-The SAP [[SAP Capire|Cloud Application Programming]] Framework also supports **[[Java]]** as a runtime, based on **[[Spring Boot]]**. The [[Java]] implementation is particularly aimed at development teams that prefer enterprise-grade solutions and the established [[Spring Boot]] ecosystem.
-
-**Typical [[SAP Capire|CAP]] applications with [[Java]] use:**
-- **[[CDS]]** models, which are processed in [[Java]]
-- **[[Spring Boot]]** as a proven framework for configuration, security, and deployment
-- **[[SAP Java SDK]]s** for integration into SAP cloud environment
-
-**Advantages of the Java runtime in [[SAP Capire|CAP]]:**
-- **Enterprise-ready** with established [[Spring Boot]] concepts
-- **Strong typing and excellent tool support**
-- **Seamless integration** with existing Java enterprise systems
+The [[SAP Capire]] Framework offers both [[Node.js]] and [[Java]] as supported runtimes. While [[Java]] runs on [[Spring Boot]] and provides an enterprise-ready environment with strong typing and tooling, it is not the preferred option in many project settings. Since [[SAPUI5]] already requires developers to work with [[JavaScript]] or [[TypeScipt]] for [[SAP Fiori extensions]], adding [[Java]] as a third language can increase complexity without significant benefit. For this reason, most [[SAP Capire|CAP]] projects focus on [[Node.js]], which integrates seamlessly with [[CDS Models|CDS models]], provides first-class [[TypeScipt]] support, and aligns closely with the broader [[SAP]] ecosystem. Concentrating on [[Node.js]] allows development teams to avoid language fragmentation and build both frontend and backend capabilities with [[JavaScript]] and [[TypeScript]].
 
 **Sources**
 - [CAP Java – Getting Started](https://cap.cloud.sap/docs/java/getting-started)

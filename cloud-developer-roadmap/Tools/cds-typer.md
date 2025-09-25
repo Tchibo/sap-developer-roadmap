@@ -4,15 +4,12 @@ tags:
   - tool
   - cli
 links:
-  - "[[cds-models]]"
+  - "[[CDS Models]]"
   - "[[SAP Capire|SAP Capire]]"
 source:
 aliases:
   - "@cap-js/cds-typer"
 ---
-> [!todo] Duplicate with similar content?
-> Document seems to overlap with 'Setup TypeScript for CAP' and if properly segragated is to rather be presented together with the aformentioned subtopic.
-
 `cds-typer` is an open-source tool that generates [[TypeScript]] typings from Core Data Services ([[CDS]]) models. It is widely used in [[SAP Capire]] Framework projects to ensure type safety and alignment between [[CDS]]-defined data structures and [[TypeScript]] application code.
 
 **Usage in [[SAP Capire]] Projects**  

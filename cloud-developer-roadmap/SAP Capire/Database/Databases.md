@@ -5,13 +5,11 @@ tags:
 links: []
 source: https://cap.cloud.sap/docs/guides/databases
 ---
-> [!todo] Quick DB recommendation for CAP at Tchibo
-> I see you have linked the 'DB - Decision TCH' document. That though is a bit 'verbose', so it would be good to get clear guidance in a short paragraph here.
+The [[SAP Capire]] Framework allows projects to be developed independently of the underlying database. This flexibility is achieved because data modelling is performed in [[CAP CDS]] rather than a database-specific language. The CDS definitions for tables, views, and relationships are converted into a [[CSN]] target schema using the [[cds-dbs]] plugin, which is then used to generate the database schema for the configured target database.
 
-The [[SAP Capire]] Framework offers the possibility to use different databases or to deploy the project with different databases without having to make major changes to the implemented business logic or changes to the data schema. This is made possible by the fact that [[data modelling]] is not done in a database-specific "language", but with [[CAP CDS]]. The tables, views... are converted into a [[CSN]] target schema using the [[cds-dbs]] plugin, on the basis of which the database schema with relations etc. is built for the configured target database.
+At Tchibo, we currently use [[PostgreSQL]] on SAP BTP, Hyperscaler Edition, as the standard database for [[SAP Capire]] projects. This provides a reliable and scalable foundation while maintaining the flexibility to adapt to other databases in the future if needed.
 
 **Sources**
 - ==[DB - Decision TCH](https://wiki.tchibo-intranet.de/x/VoJtNw)==
 - [[PostgreSQL on SAP BTP]]
 - [[SAP HANA Cloud]]
-- [[SAP HANA Native]]

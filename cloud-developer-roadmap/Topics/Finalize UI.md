@@ -1,0 +1,4 @@
+When the main functionality of an application is in place it is time to refine the user experience. In [[Fiori Elements|SAP Fiori Elements]] this means adding details that make the application complete and user friendly. Features such as [[Side-Effects|side-effects]], [[Value-Helps|value-helps]], and localized messages contribute to a consistent and polished experience across the application. To support developers SAP provides an excellent GitHub repository that documents these features and demonstrates them in a showcase app. This repository helps to understand how the different options can be applied in practice to achieve a well rounded [[Fiori Elements]] user interface.
+
+**Sources**
+- [GitHub - fiori-elements-feature-showcase](https://github.com/SAP-samples/fiori-elements-feature-showcase)

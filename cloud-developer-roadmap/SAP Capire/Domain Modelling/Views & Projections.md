@@ -2,7 +2,6 @@
 tags:
   - cds
   - data-modelling
-  - revisit
   - cap-cds
   - basic
 links:
@@ -14,35 +13,32 @@ aliases:
   - projection
   - projections
 ---
-> [!toDo] Mention how projections are defined in the service.cds
-> For more tight integration with the actual CAP implementation mention that projections are defined in the service.cds file in the application logic folder 'srv' (if as a developer one has stuck to CAP convention)
+In [[SAP Capire]], [[Views & Projections|projections]] and [[Views & Projections|views]] are key tools for shaping how data is presented and consumed by services.
 
-In [[SAP Capire]], [[Views & Projections|projections]] and [[Views & Projections|views]] are powerful modeling tools that allow developers to shape how data is presented and consumed.
+**Projections** define service-specific interfaces on top of the core domain model. They expose only selected fields or aspects of an entity, ensuring internal data structures remain encapsulated while providing consumers or APIs with the necessary information. In a typical CAP project following the standard convention, projections are implemented in the `service.cds` file located in the `srv` folder of the application. This placement aligns projections with the service layer, keeping them separate from the core domain model defined in `schema.cds`.
 
-**Projections** are used to define service-specific interfaces on top of core domain models. By creating projections, you can expose only selected fields and aspects of an entity to a service, ensuring that internal data structures remain encapsulated and that only the necessary data is available to [[API]]s or consumers. Projections enable a clear separation between internal domain models and external service contracts, which is important for maintainability and security.
-
-**Views** in [[SAP Capire]] are virtual entities defined with SQL-like queries. Views allow you to aggregate, filter, join, or transform data from one or more entities to present complex or derived data structures as reusable parts of your model. Views help to simplify queries and encapsulate business logic within the data model, making it easier to work with complex requirements without changing the underlying persistent entities.
+**Views** are virtual entities that allow you to aggregate, filter, join, or transform data from one or more entities. They can be used to present derived or complex data structures without altering the underlying persistent tables. Views simplify queries and encapsulate business logic within the data model, making them reusable across different services or projections.
 
 **Example**
 ```cds
-// A projection for an external service
+// service.cds in the 'srv' folder
 service CatalogService {
+  // Projection exposing only selected fields
   entity Products as projection on my.Products {
     ID,
     name,
     price
   };
+  
+  // Internal view for aggregated data
+  entity TopSellingProducts as select from my.Sales {
+    product_ID,
+    total: sum(quantity) as TotalSold
+  } group by product_ID;
 }
-
-// A view for internal use
-entity TopSellingProducts as select from my.Sales {
-  product_ID,
-  total: sum(quantity) as TotalSold
-} group by product_ID;
 ```
 
-**Summary**  
-Projections in [[SAP Capire]] define service-specific interfaces, exposing only necessary data fields to consumers. Views are virtual entities that transform, aggregate, or join data for internal processing. Both concepts support clean data modeling and flexibility in [[SAP Capire]] applications.
+By defining projections and views in this way, CAP provides a clean separation between the persistent domain model and service-specific interfaces, improving maintainability, security, and clarity of the application logic.
 
 **Sources**
 - [SAP Capire - Views & Projections](https://cap.cloud.sap/docs/cds/cdl#views-projections)

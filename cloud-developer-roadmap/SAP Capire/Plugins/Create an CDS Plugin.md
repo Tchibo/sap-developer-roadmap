@@ -2,16 +2,12 @@
 tags:
   - tool
   - advanced
+  - do-not-publish
 links:
   - "[[CDS Plugins]]"
 source:
 aliases:
 ---
-
-> [!toDo] Not sure this needs to be included in the roadmap as yet
-> I deem creating a plugin beyond the scope of the CAP learner's roadmap.
-
-
 For details on CDS Plugins it's recommended to check the [[CDS Plugins]] page first.
 
 **Sources**

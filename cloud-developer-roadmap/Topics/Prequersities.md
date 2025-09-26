@@ -1,0 +1,1 @@
+Before diving into SAP Cloud development it is helpful to be aware of some fundamental concepts and skills that can smooth the initial journey. While prior knowledge is not mandatory, having a basic understanding of areas such as [[SAP BTP]], [[IDE]]s, and [[Version Control Systems|version control systems]] can make the learning curve less steep. 

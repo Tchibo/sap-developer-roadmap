@@ -12,10 +12,9 @@
   <h3>We are currently working on different SAP Roadmaps:</h3>
   <ul>
     <li><a href="https://roadmap.sh/r/sap-abap-developer">SAP ABAP Developer</a></li>
+    <li>SAP UX Developer</li>
     <li>SAP Cloud Developer</li>
     <li>SAP Integration Developer</li>
-    <li>SAP UX Developer</li>
-    <li>SAP HANA Developer</li>
   </ul>
 </p>
 

@@ -1,14 +1,14 @@
->Anmerkung: Vielleicht können wir noch einen Hinweis auf die ABAP-Roadmap geben. In Conectivity kommt auch ein OData Teil vor.
+#Basic 
+OData (Open Data Protocol) is a standardized protocol for creating and consuming RESTful APIs over HTTP, using formats like **JSON** and **XML**. In the SAP ecosystem, it is the backbone for modern applications, providing a crucial bridge between frontend user interfaces built with SAP Fiori and SAPUI5 and backend systems like SAP S/4HANA. By standardizing data access, OData enables seamless integration and enhances the scalability of enterprise-level applications.
 
-#Advanced 
+The protocol's key features include a uniform interface for CRUD operations (Create, Read, Update, Delete), sophisticated data querying via URI, and a detailed metadata description that allows applications to dynamically understand the data structure.
 
-OData (**O**pen **Data** Protocol) is a web service standard used by SAP to facilitate data exchange between systems. It provides a uniform way to share, access, and modify data over common web protocols, like HTTP, supporting both **XML** and **JSON** formats. OData allows the creation of RESTful APIs, enabling developers to access data directly from SAP systems, which is crucial for building enterprise-level applications.
+### OData V2 vs. V4
 
-In SAP, OData is integral for **SAPUI5** applications, offering a streamlined method to connect front-end applications with back-end services. SAP Fiori utilizes OData services extensively to ensure smooth and dynamic interactions between the UI and data sources. The protocol is available in various versions, with V2 being widely adopted due to its compatibility with existing applications, while V4 introduces enhanced features such as improved data model structures and smarter functionalities.
-
-OData supports operations like data retrieval, updates, and filtering, enabling developers to build sophisticated user interfaces that interact seamlessly with SAP's business data. By standardizing data interaction, OData enhances scalability and integration, positioning itself as a backbone for modern SAP environments.
-
-For more information on OData and the subtopic topic of connectivity in SAP backend systems, please refer to the Connectivity Section in our ABAP Developer Roadmap.
+OData has two significant versions in SAP development: V2 and V4. OData V2 is widely adopted and provides strong support for SAPUI5 smart controls. However, OData V4 is the modern ISO standard and is recommended for all new application development. V4 offers significant advantages, including improved data model support, enhanced filtering capabilities, and robust features like a draft mode for consistent data handling, which are leveraged by modern frameworks like SAP Fiori elements with the RAP and CAP programming models. SAP is focusing new functional innovations exclusively on the V4 architecture.
 ## Further Reading
-
-- #Website [OData Version 2.0](https://www.odata.org/documentation/odata-version-2-0/)
+- #Article [OData - the Best Way to REST](https://www.odata.org/getting-started/basic-tutorial/)
+- #Article [Verifying the OData Metadata](https://help.sap.com/docs/abap-cloud/abap-rap/verifying-odata-metadata?locale=en-US)
+- #Article [OData API Versions: A Comparative Analysis of v2 and v4](https://roadmap.sh/r/sap-ux-developer)
+- #Article [OData V2 Model](https://help.sap.com/docs/SAP_NETWEAVER_AS_ABAP_752/468a97775123488ab3345a0c48cadd8f/6c47b2b39db9404582994070ec3d57a2.html?locale=en-US)
+- #Article [OData V4 Model](https://help.sap.com/docs/SAP_NETWEAVER_AS_ABAP_752/468a97775123488ab3345a0c48cadd8f/5de13cf4dd1f4a3480f7e2eaaee3f5b8.html?locale=en-US)

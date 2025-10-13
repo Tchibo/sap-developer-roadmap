@@ -15,3 +15,6 @@ The MBT CLI ([[Multi-Target Application]] Build Tool CLI) is a command-line inte
 Key features include MTA archive packaging, a modulacf CLIr build process for complex applications, centralized configuration management, automation to reduce errors, and seamless CI/CD integration.
 
 For developers using [[SAP Build Code]], the MBT CLI comes preinstalled globally, allowing builds to be triggered directly from the terminal without additional setup.
+
+**Sources**
+- [Website - Cloud MTA Build Tool](https://sap.github.io/cloud-mta-build-tool/)

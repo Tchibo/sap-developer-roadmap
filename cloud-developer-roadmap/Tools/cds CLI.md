@@ -23,3 +23,6 @@ The [[cds CLI]] is crucial for developers using [[SAP Capire|CAP]] to create ser
 
 **Summary**
 The [[cds CLI]] is a powerful toolkit for [[SAP Capire|CAP]] development, streamlining service definition, data modeling, and deployment. It offers extensive documentation and community support.
+
+**Sources**
+- [NPM.JS - @sap/cds-dk](https://www.npmjs.com/package/@sap/cds-dk)

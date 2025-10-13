@@ -83,7 +83,7 @@
 		{"id":"0bafb282617fe68c","type":"text","text":"# [Security](https://cap.cloud.sap/docs/guides/security/)","x":-270,"y":2060,"width":250,"height":60},
 		{"id":"b2873924e8fdd337","type":"text","text":"[[external-service-mashup|@sap/external-service-mashup]]","x":-1280,"y":1974,"width":250,"height":60},
 		{"id":"f174ff30701e8d9a","type":"text","text":"[[Custom Logger]]","x":460,"y":1938,"width":250,"height":65},
-		{"id":"8ffda7c563871b98","type":"text","text":"[[Add (local) external data]]","x":-1280,"y":1892,"width":250,"height":60},
+		{"id":"8ffda7c563871b98","type":"text","text":"[[Mock external data]]","x":-1280,"y":1892,"width":250,"height":60},
 		{"id":"32165bf0e6846d05","type":"text","text":"[[Custom auth handler]]","x":460,"y":1858,"width":250,"height":65},
 		{"id":"59c9791e357ee7c8","type":"text","text":"[[TypeScript]]","x":-280,"y":1786,"width":250,"height":60},
 		{"id":"8f06ae71d50cad1f","type":"text","text":"[[Setup TypeScript for CAP]]","x":57,"y":1800,"width":250,"height":59},

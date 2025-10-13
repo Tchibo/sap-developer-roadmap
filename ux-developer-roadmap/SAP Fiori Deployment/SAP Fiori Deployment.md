@@ -1,6 +1,6 @@
 ## Deployment
 
-### Deploying Fiori Element Apps
+### Deploying Fiori Apps
 Most Fiori apps are part of Multi-Target Applications (MTAs) projects. A MTA deployment requires connection to an SAP BTP Subaccount with specified organization (ORG) and space (SPACE) to identify the target Cloud Foundry runtime environment. Invoke the build by right-clicking the file mta.yaml. When build is completed right-click the MTA archive file (.mtar) to deploy to Cloud Foundry.
 
 ### Deploying Adaptation Projects 

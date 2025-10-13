@@ -14,10 +14,9 @@ body:
       description: What roadmap are you referring to?
       options:
         - SAP ABAP Developer
+        - SAP UX Developer
         - SAP Cloud Developer
         - SAP Integration Developer
-        - SAP UX Developer
-        - SAP HANA Developer
     validations:
       required: true
   - type: textarea

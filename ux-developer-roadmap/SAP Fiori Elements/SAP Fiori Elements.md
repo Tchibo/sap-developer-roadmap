@@ -2,7 +2,7 @@
 
 Fiori Elements is a powerful tool within the SAP Fiori framework designed for rapid development of SAP applications. They offer a set of pre-defined page types, paradigms, and layouts which follow standardized patterns and guidelines. This enables developers to create consistent, high-quality, and scalable applications quickly by minimizing the need for custom code. Furthermore, a simple and intuitive user interface is offered, which has a high recognition effect.
 
-### Essential Aspekts
+### Essential Aspects
 - **Model-Driven Development:** Fiori Elements leverage metadata from OData services to automatically generate UI components, streamlining development processes and ensuring tight integration with underlying business logic.
     
 - **Consistent User Experience:** By utilizing established design patterns and UI components, Fiori Elements ensure uniformity across applications, reinforcing a standard look-and-feel that enhances user interaction.

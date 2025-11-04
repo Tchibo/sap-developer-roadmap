@@ -13,7 +13,7 @@
   <ul>
     <li><a href="https://roadmap.sh/r/sap-abap-developer">SAP ABAP Developer</a></li>
     <li><a href="https://roadmap.sh/r/sap-ux-developer">SAP UX Developer</a></li>
-    <li>SAP Cloud Developer</li>
+    <li><a href="https://roadmap.sh/r/sap-cloud-developer">SAP Cloud Developer</a></li>
     <li>SAP Integration Developer</li>
   </ul>
 </p>

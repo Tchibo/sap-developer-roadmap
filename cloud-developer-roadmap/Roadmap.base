@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder.contains("cloud-developer-roadmap")
+    order:
+      - file.name
+      - tags
+      - source
+      - links
+      - aliases
+      - file.folder
+    columnSize:
+      note.tags: 509

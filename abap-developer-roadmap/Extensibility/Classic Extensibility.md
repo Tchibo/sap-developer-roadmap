@@ -3,7 +3,6 @@
 Classic extensibility and developer extensibility are different approaches to extending SAP systems. Classic extensibility offers maximum flexibility with no restrictions but can lead to upgrade challenges while developer extensibility leverages a cloud-ready, upgrade-stable ABAP development model with released APIs, promoting cleaner and more maintainable extensions. 
 
 Characteristics of classic extensibility are:
-
 - **Offers flexibility:** Offers maximum freedom and flexibility for extending the system. 
 - **Has no restrictions:** There are no specific limitations on the extension model. 
 - **Can lead to upgrade challenges:** due to the lack of clear interfaces between SAP code and extensions. 

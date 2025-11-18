@@ -9,6 +9,6 @@ The **Custom Logic** app allows users to define custom logic directly within the
 By leveraging these Fiori apps, business users can partake in innovation while keeping the core clean and thus ensuring it remains seemlessly upgradeable.
 
 ## Further reading
-
+#Article [Key User Extensibility | SAP Help Portal](https://help.sap.com/docs/ABAP_PLATFORM_NEW/b5670aaaa2364a29935f40b16499972d/3ccb50e724b045508fea8b2cf1774b2b.html)
 #Article [Fiori Apps Library: Custom Fields App](https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('F1481')/S30PCE)
 #Article [Fiori Apps Library: Custom Logic App](https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('F6957')/S30PCE)

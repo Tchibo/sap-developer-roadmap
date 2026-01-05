@@ -1,13 +1,13 @@
 #Basic
-In the new model extensions are labeled regarding their clean core rating reaching. In this model Level A and Level B ratings are considered clean core.
-### Level  A
-Extensions qualify for Level A when they are built solely on **publicly** **released** SAP APIs and extension points. Publicly released Objects are officially supported, documented and governed under a clearly defined stability contract by SAP. (see also Object stability contract)
+In the new model, extensions are labeled according to their Clean Core compliance level. In this model, Level A and Level B are considered clean core.
+### Level A
+Extensions qualify for Level A when they are built solely on **publicly released** SAP APIs and extension points. Publicly released objects are officially supported, documented, and governed by SAP under a clearly defined object stability contract (see also Object Stability Contract).
 ### Level B
-Customer extensions qualify for Level B when they use only SAP objects and development patterns officially classified as classic APIs or released APIs.
+Customer extensions qualify for Level B when they exclusively use SAP objects and development patterns officially classified as **released APIs** or **classic APIs**.
 ### Level C
-Contains SAP internal objects that are not classified nor intended for customer use - but still are used. By default **all** SAP objects are considered internal when they are **not** designated as **released** (Level A), nominated as **classic APIs** (Level B) nor explicitly classified as **not recommended** (Level D).
+Level C is assigned when extensions use SAP internal objects that are neither classified for customer use nor intended as released or classic APIs. **All** SAP objects are considered internal by default **unless** they are designated as **released** (Level A), nominated as **classic APIs** (Level B), or explicitly classified as **not recommended** (Level D).
 ### Level D
-Includes all objects and patterns that have been officially declared as not recommended for external use. This includes objects labeled with the “noAPI” designation in Cloudification Repository as well as all development patterns that are not considered to be clean core.
+Includes all objects and development patterns that have been explicitly declared as **not recommended** for external use. This includes objects labeled with the *noAPI* designation in the Cloudification Repository, as well as development patterns that are not considered clean core.
 
 ### Resources
 #Article  [Cloudification Repository Viewer](https://sap.github.io/abap-atc-cr-cv-s4hc/?states=classicAPI)

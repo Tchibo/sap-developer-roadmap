@@ -1,16 +1,20 @@
 #Basic 
 
-As entirely clean core defined is the usage of Level A interfaces for extensions in the Clean Core Extensibility Model. These objects come with a **stability contract** that ensures the stability of the interfaces.  
+In the Clean Core Extensibility Model, the exclusive use of Level A interfaces for extensions is considered fully clean core. These objects are provided with a **stability contract** that ensures long-term interface stability.
 
-There are three categories of release contracts:
-- C0 - Extensibility
-- C1 - Use System Internally 
-- C2 - Use as a remote API
+Several release contracts are available:
+- **C0** - Extensibility
+- **C1** - Use system-internally
+- **C2** - Use as a remote API
+- **C3** - Manage configuration content
+- **C4** - Use in ABAP-Managed Database Procedure
 
-While C0 means that the interface can be extended itself, C1 and C2 defines if it can be used within the system for on-stack Extensibility (C1) or for side-by-side Extension (C2).
+While **C0** indicates that an interface itself may be extended, **C1**, **C2** and **C4** define how an interface can be consumed: either within the system for on-stack extensibility (**C1** and **C4**) or externally for side-by-side extensibility (**C2**). **C3** allows developers to manage their own configuration content.
 
-Hint: in the 'Open ABAP Development Object' Dialog (ctrl + shif + a) try using e.g. 'type:ddls api:use_in_cloud_development i_sales' to find all released CDS views in the area of Application Component Sales and Distribution.
+**Hint:** In the *Open ABAP Development Object* dialog (Ctrl + ⇧ + A on Windows, ⌘ + ⇧ + A on Mac), you can use search filters such as `type:ddls api:use_in_cloud_development i_sales` to find all released CDS views in the Sales and Distribution application component.
+
 ## Further reading
 #Article [Finding Released Objects](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/3f232ac7cecc4d9891ff512462240223.html?locale=en-US)
+#Article [Released APIs](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/c479660d07374c15a1a5fe83fdbb1337.html?locale=en-US)
 
 

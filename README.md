@@ -45,5 +45,5 @@
 </p>
 
 <p align="center">
-  &copy; 2025 Tchibo GmbH. All rights reserved | SAP Developer Roadmap
+  &copy; 2026 Tchibo GmbH. All rights reserved | SAP Developer Roadmap
 </p>

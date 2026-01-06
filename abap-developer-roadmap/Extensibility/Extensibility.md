@@ -1,19 +1,11 @@
 #Basic 
 
-Extensibility enables SAP solutions to cater for diverse business needs while ensuring upgrade stability.
+Extensibility enables SAP solutions to address diverse business needs while ensuring upgrade stability.
 
 **Key user extensibility** empowers non-technical users to adapt SAP applications. Key user tools enable end-users to create fields, change UI elements, or adjust business rules according to business requirements without involving code changes.
 
-**Developer extensibility** empowers ABAP developers to extend applications using SAP BTP Business Application Studio and ABAP Development Tools (ADT) for custom enhancements and extensions that surpass the options available to key user extensibility. In developer extensibility only objects with a 'release contract' may be used. Implementing a released Business Add-In (BAdI) is an example of an extension that can be made using Developer Extensibility.
+**Developer extensibility** empowers ABAP developers to extend applications using SAP BTP Business Application Studio and ABAP Development Tools (ADT). It enables custom enhancements and extensions that go beyond the options available with key user extensibility.
 
-**Side-by-side extensibility** is by integration of innovative external applications with the On Premise SAP system by means of tools provided in SAP BTP. With it ABAP developers can innovate outside of the SAP On Premise core and thus leave the core unaffected and seemlessly upgradeable.
+**Side-by-side extensibility** integrates innovative external applications with on-premise SAP systems by means of tools provided on SAP BTP. This approach allows ABAP developers to innovate outside of the on-premise SAP core and, keeping it unaffected and seamlessly upgradeable.
 
-Although **classic** developer extensibility already provided ways to inject custom fields and logic into SAP systems for a long time through assisted modifications, extension projects, implicit/explicit enhancements and application level frameworks, the key user and developer extensibility options have superseded classic developer extensibility to ensure seamless upgrades.
-
-### Further reading
-
-#Article [Exploring the SAP S/4HANA Cloud Extensibility Model](https://learning.sap.com/learning-journeys/becoming-an-sap-btp-solution-architect/exploring-the-extensibility-of-sap-s-4hana)
-#Article [SAP Extensibility Explorer](https://extensibilityexplorer.cfapps.eu10.hana.ondemand.com/ExtensibilityExplorer/#/ExtensibilityGuide)
-
-
-
+**Classic extensibility** offers maximum flexibility for extensions in on-premise systems and was historically the only available extensibility option. However, it can lead to significant challenges during upgrades and should therefore be avoided in favor of using developer and side-by-side extensibility approaches.

@@ -1,9 +1,10 @@
 ---
 tags:
   - sap-cloud-developer-roadmap
-links: 
-source: 
+links:
+source:
 aliases:
+AI generated:
 ---
 *Content*
 

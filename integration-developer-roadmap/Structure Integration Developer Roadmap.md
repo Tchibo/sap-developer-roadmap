@@ -2,28 +2,36 @@
 
 - SAP landscape architecture
 	- https://community.sap.com/t5/technology-blog-posts-by-members/sap-integration-architecture-guide/ba-p/13955539
-- API types 
-	- IDoc, RFC, BAPI, SOAP, REST, OData -> verlinken zu Fiori/ABAP Roadmap 
-	- synchron, asynchron, push, pull,...
-- Message protocols and formats 
-	- XML, JSON
-- Authentication & authorization mechanisms?? --> Link zu ??
-	- Basic, OAuth 2.0 (application-to-application), Principal Propagation (user-to-application)
+		- ISA-M
 - Destinations
-- - Groovy/JavaScript scripting
 - SAP Accelerator Hub --> Link
+## 2. Platform Topics
+	Authentication & authorization mechanisms?? --> Link zu ??
+		- Basic, OAuth 2.0 (application-to-application), Principal Propagation (user-to-application)
+	Cloud Connector
+	Connectivity Service
+	XSUAA
+	
+## 3. Data Integration
+	-SLT, SDA,...
 
-## 2. **SAP Integration Suite 
+## 4. **Process Integration
 
 - Integration flow designs
-- Adapters 
+- Adapters (erwähnen --> Link Doku)
 	- SOAP, REST, IDoc, SFTP, Mail, etc.
 - Message mapping and transformation
 - Content modifiers and headers
 - Error handling and monitoring
+- Groovy/JavaScript scripting
 - Security artifacts management (OAuth,...)
+- API types 
+	- IDoc, RFC, BAPI, SOAP, REST, OData -> verlinken zu Fiori/ABAP Roadmap 
+	- synchron, asynchron, push, pull, pubsub,...
+- Message protocols and formats 
+	- XML, JSON
 
-## 3. **API Management**
+## 5. **API Management**
 
 - Introduction
     - based on apigee - link to documentation
@@ -35,21 +43,19 @@
         
         - [https://community.sap.com/t5/technology-blog-posts-by-sap/sap-api-management-understanding-policy-flow/ba-p/13187144](https://community.sap.com/t5/technology-blog-posts-by-sap/sap-api-management-understanding-policy-flow/ba-p/13187144)
             
-        - [https://help.sap.com/docs/sap-api-management/sap-api-management-for-neo-environment/flow?locale=en-US&q=defaultfaultflow](https://help.sap.com/docs/sap-api-management/sap-api-management-for-neo-environment/flow?locale=en-US&q=defaultfaultflow)
-            
 - API Hub
     - OpenAPI Specifications
 
-## 4. Event Mesh / AEM
+## 6. Event Mesh / AEM
 
-- Differences between EM and AEM 
+- Differences between EM and AEM (nur AEM?)
 - EDA (Event Driven Architecture)
 - EEE (Enterprise Event Enablement) 
 - Event Format (Data Events, Notification Events)
 - Event Schema
 - AEM Designer and AEM Broker
 - Dead Messages
-## 5. **Monitoring & Operations**
+## 7. **Monitoring & Operations**
 
 - Message monitoring
 - Error resolution

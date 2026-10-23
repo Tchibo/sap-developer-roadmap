@@ -5,8 +5,8 @@ The data provision and transmission within the source system is decoupled.  The 
 data is done asynchronously by a push request which can be repeated in case of unsuccessful data sent. 
 ### Key Concepts
 
-- **Structure**: An Idoc consists of a control record, data records, and status records. Each part plays a crucial role in managing information flows—containing metadata, the actual data, and processing status respectively.
-- **Types**: IDocs are categorized as Basic and Extended Idocs. Basic Idocs handle standard processes, whereas Extended Idocs accommodate custom needs by adding additional fields.
+- **Structure**: An IDoc consists of a control record, data records, and status records. Each part plays a crucial role in managing information flows—containing metadata, the actual data, and processing status respectively.
+- **Types**: IDocs are categorized as Basic and Extended IDocs. Basic IDocs handle standard processes, whereas Extended IDocs accommodate custom needs by adding additional fields.
 - **Processing**: IDocs operate through a process called ALE (Application Link Enabling), which manages distribution, replication, and synchronization of data across systems.
 - **Status & Monitoring**: IDocs have specific statuses like 'created', 'ready for dispatch', 'success', or 'error', allowing users to track their journey and troubleshoot problems.
 ### Usage

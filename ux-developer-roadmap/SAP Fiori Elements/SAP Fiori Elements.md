@@ -20,6 +20,6 @@ Understanding and leveraging Fiori Elements is crucial for any SAP Fiori Develop
 -  #Article [Developing Apps with Fiori Elements](https://help.sap.com/docs/ABAP_PLATFORM_NEW/468a97775123488ab3345a0c48cadd8f/03265b0408e2432c9571d6b3feb6b1fd.html?locale=en-US)
 - #Article [Developing and Extending SAP Fiori Elements Apps](https://learning.sap.com/courses/developing-and-extending-sap-fiori-elements-apps)
 - #Article [Architecture of SAP Fiori Elements](https://learning.sap.com/learning-journeys/develop-sapui5-applications/explaining-the-architecture-of-fiori-elements_e89bd7ac-24e6-4b46-a84e-8011c612a37e)
-- #Article [Fiori Elements Feature Show Case](https://github.com/SAP-samples/fiori-elements-feature-showcasehttps://github.com/SAP-samples/fiori-elements-feature-showcase)
+- #Article [Fiori Elements Feature Show Case](https://github.com/SAP-samples/fiori-elements-feature-showcase)
 - #Article [Sample Applications based on Fiori Elements](https://sapui5.hana.ondemand.com/test-resources/sap/suite/ui/generic/template/demokit/index.html)
 - #Article [SAP Fiori Elements](https://pages.community.sap.com/topics/fiori-elements)

@@ -3,9 +3,9 @@ Developed by Microsoft, the **Open Data Protocol (OData)** is an open standard f
 
 The protocol provides a set of common rules to standardize request patterns. This includes uniform query options for common tasks like paging (`$top`, `$skip`), filtering (`$filter`), and sorting (`$orderby`).
 
-Its primary benefit lies in exposing backend data in a standardized, queryable, and discoverable way, significantly reducing the custom code needed on both client and server. This makes OData the standard choice for custom development, since it perfectly suited for building synchronous web API's as well as UI services for SAP Fiori. These can be set up based on Core Data Services as well as Restful Application Programming.
+Its primary benefit lies in exposing backend data in a standardized, queryable, and discoverable way, significantly reducing the custom code needed on both client and server. This makes OData the standard choice for custom development, since it is perfectly suited for building synchronous web APIs as well as UI services for SAP Fiori. These can be set up based on Core Data Services as well as Restful Application Programming.
 
- While the older V2 version was widely used in the past, the new V4 version offers a range of advantages, including better metadata compression and more sophisticated query, sorting, and filter mechanisms. therefore the new version v4 is the preferred version to use.
+ While the older V2 version was widely used in the past, the new V4 version offers a range of advantages, including better metadata compression and more sophisticated query, sorting, and filter mechanisms. Therefore the new version v4 is the preferred version to use.
 
 ```
     "results" : [  
